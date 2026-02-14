@@ -656,10 +656,19 @@
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.17",
           "Microsoft.Extensions.DependencyInjection": "8.0.1",
-          "PizzariaFalia.Common": "1.0.0"
+          "PizzariaFalia.Common": "1.0.0",
+          "PizzariaFalia.Data.Models.Enums": "1.0.0"
         },
         "runtime": {
           "PizzariaFalia.Data.Models.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "PizzariaFalia.Data.Models.Enums/1.0.0": {
+        "runtime": {
+          "PizzariaFalia.Data.Models.Enums.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1115,6 +1124,11 @@
       "sha512": ""
     },
     "PizzariaFalia.Data.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PizzariaFalia.Data.Models.Enums/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

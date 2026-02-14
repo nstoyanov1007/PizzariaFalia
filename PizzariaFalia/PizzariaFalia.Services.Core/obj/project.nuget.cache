@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7InccfJogyA=",
+  "dgSpecHash": "GDcGrKXo+lk=",
   "success": true,
-  "projectFilePath": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Services.Core\\PizzariaFalia.Services.Core.csproj",
+  "projectFilePath": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Services.Core\\PizzariaFalia.Services.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nikis\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\nikis\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

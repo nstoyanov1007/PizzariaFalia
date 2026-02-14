@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.ViewModels\\PizzariaFalia.ViewModels.csproj",
+      "projectUniqueName": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.ViewModels\\PizzariaFalia.ViewModels.csproj",
       "projectName": "PizzariaFalia.ViewModels",
-      "projectPath": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.ViewModels\\PizzariaFalia.ViewModels.csproj",
+      "projectPath": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.ViewModels\\PizzariaFalia.ViewModels.csproj",
       "packagesPath": "C:\\Users\\nikis\\.nuget\\packages\\",
-      "outputPath": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.ViewModels\\obj\\",
+      "outputPath": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.ViewModels\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -59,8 +59,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Common\\PizzariaFalia.Common.csproj": {
-              "projectPath": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Common\\PizzariaFalia.Common.csproj"
+            "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Common\\PizzariaFalia.Common.csproj": {
+              "projectPath": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Common\\PizzariaFalia.Common.csproj"
             }
           }
         }

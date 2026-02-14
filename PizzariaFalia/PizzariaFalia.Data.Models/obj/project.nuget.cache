@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "w0RsFJ6ABd4=",
+  "dgSpecHash": "qfBpQDdVocs=",
   "success": true,
-  "projectFilePath": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Data.Models\\PizzariaFalia.Data.Models.csproj",
+  "projectFilePath": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Data.Models\\PizzariaFalia.Data.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.17\\microsoft.aspnetcore.cryptography.internal.8.0.17.nupkg.sha512",
     "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\8.0.17\\microsoft.aspnetcore.cryptography.keyderivation.8.0.17.nupkg.sha512",

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Common\\PizzariaFalia.Common.csproj",
+      "projectUniqueName": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Common\\PizzariaFalia.Common.csproj",
       "projectName": "PizzariaFalia.Common",
-      "projectPath": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Common\\PizzariaFalia.Common.csproj",
+      "projectPath": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Common\\PizzariaFalia.Common.csproj",
       "packagesPath": "C:\\Users\\nikis\\.nuget\\packages\\",
-      "outputPath": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Common\\obj\\",
+      "outputPath": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

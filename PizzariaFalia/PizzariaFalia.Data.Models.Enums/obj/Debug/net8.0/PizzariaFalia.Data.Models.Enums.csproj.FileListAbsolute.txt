@@ -1,0 +1,12 @@
+E:\VisualStudio\.ASPNet\AspNetProject\PizzariaFalia\PizzariaFalia\PizzariaFalia.Data.Models.Enums\bin\Debug\net8.0\PizzariaFalia.Data.Models.Enums.deps.json
+E:\VisualStudio\.ASPNet\AspNetProject\PizzariaFalia\PizzariaFalia\PizzariaFalia.Data.Models.Enums\bin\Debug\net8.0\PizzariaFalia.Data.Models.Enums.dll
+E:\VisualStudio\.ASPNet\AspNetProject\PizzariaFalia\PizzariaFalia\PizzariaFalia.Data.Models.Enums\bin\Debug\net8.0\PizzariaFalia.Data.Models.Enums.pdb
+E:\VisualStudio\.ASPNet\AspNetProject\PizzariaFalia\PizzariaFalia\PizzariaFalia.Data.Models.Enums\obj\Debug\net8.0\PizzariaFalia.Data.Models.Enums.GeneratedMSBuildEditorConfig.editorconfig
+E:\VisualStudio\.ASPNet\AspNetProject\PizzariaFalia\PizzariaFalia\PizzariaFalia.Data.Models.Enums\obj\Debug\net8.0\PizzariaFalia.Data.Models.Enums.AssemblyInfoInputs.cache
+E:\VisualStudio\.ASPNet\AspNetProject\PizzariaFalia\PizzariaFalia\PizzariaFalia.Data.Models.Enums\obj\Debug\net8.0\PizzariaFalia.Data.Models.Enums.AssemblyInfo.cs
+E:\VisualStudio\.ASPNet\AspNetProject\PizzariaFalia\PizzariaFalia\PizzariaFalia.Data.Models.Enums\obj\Debug\net8.0\PizzariaFalia.Data.Models.Enums.csproj.CoreCompileInputs.cache
+E:\VisualStudio\.ASPNet\AspNetProject\PizzariaFalia\PizzariaFalia\PizzariaFalia.Data.Models.Enums\obj\Debug\net8.0\PizzariaFalia.Data.Models.Enums.sourcelink.json
+E:\VisualStudio\.ASPNet\AspNetProject\PizzariaFalia\PizzariaFalia\PizzariaFalia.Data.Models.Enums\obj\Debug\net8.0\PizzariaFalia.Data.Models.Enums.dll
+E:\VisualStudio\.ASPNet\AspNetProject\PizzariaFalia\PizzariaFalia\PizzariaFalia.Data.Models.Enums\obj\Debug\net8.0\refint\PizzariaFalia.Data.Models.Enums.dll
+E:\VisualStudio\.ASPNet\AspNetProject\PizzariaFalia\PizzariaFalia\PizzariaFalia.Data.Models.Enums\obj\Debug\net8.0\PizzariaFalia.Data.Models.Enums.pdb
+E:\VisualStudio\.ASPNet\AspNetProject\PizzariaFalia\PizzariaFalia\PizzariaFalia.Data.Models.Enums\obj\Debug\net8.0\ref\PizzariaFalia.Data.Models.Enums.dll

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Data\\PizzariaFalia.Data.csproj": {}
+    "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Data\\PizzariaFalia.Data.csproj": {}
   },
   "projects": {
-    "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Common\\PizzariaFalia.Common.csproj": {
+    "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Common\\PizzariaFalia.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Common\\PizzariaFalia.Common.csproj",
+        "projectUniqueName": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Common\\PizzariaFalia.Common.csproj",
         "projectName": "PizzariaFalia.Common",
-        "projectPath": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Common\\PizzariaFalia.Common.csproj",
+        "projectPath": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Common\\PizzariaFalia.Common.csproj",
         "packagesPath": "C:\\Users\\nikis\\.nuget\\packages\\",
-        "outputPath": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Common\\obj\\",
+        "outputPath": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -70,14 +70,80 @@
         }
       }
     },
-    "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Data.Models\\PizzariaFalia.Data.Models.csproj": {
+    "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Data.Models.Enums\\PizzariaFalia.Data.Models.Enums.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Data.Models\\PizzariaFalia.Data.Models.csproj",
-        "projectName": "PizzariaFalia.Data.Models",
-        "projectPath": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Data.Models\\PizzariaFalia.Data.Models.csproj",
+        "projectUniqueName": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Data.Models.Enums\\PizzariaFalia.Data.Models.Enums.csproj",
+        "projectName": "PizzariaFalia.Data.Models.Enums",
+        "projectPath": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Data.Models.Enums\\PizzariaFalia.Data.Models.Enums.csproj",
         "packagesPath": "C:\\Users\\nikis\\.nuget\\packages\\",
-        "outputPath": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Data.Models\\obj\\",
+        "outputPath": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Data.Models.Enums\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nikis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Data.Models\\PizzariaFalia.Data.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Data.Models\\PizzariaFalia.Data.Models.csproj",
+        "projectName": "PizzariaFalia.Data.Models",
+        "projectPath": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Data.Models\\PizzariaFalia.Data.Models.csproj",
+        "packagesPath": "C:\\Users\\nikis\\.nuget\\packages\\",
+        "outputPath": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Data.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -99,8 +165,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Common\\PizzariaFalia.Common.csproj": {
-                "projectPath": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Common\\PizzariaFalia.Common.csproj"
+              "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Common\\PizzariaFalia.Common.csproj": {
+                "projectPath": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Common\\PizzariaFalia.Common.csproj"
+              },
+              "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Data.Models.Enums\\PizzariaFalia.Data.Models.Enums.csproj": {
+                "projectPath": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Data.Models.Enums\\PizzariaFalia.Data.Models.Enums.csproj"
               }
             }
           }
@@ -150,14 +219,14 @@
         }
       }
     },
-    "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Data\\PizzariaFalia.Data.csproj": {
+    "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Data\\PizzariaFalia.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Data\\PizzariaFalia.Data.csproj",
+        "projectUniqueName": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Data\\PizzariaFalia.Data.csproj",
         "projectName": "PizzariaFalia.Data",
-        "projectPath": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Data\\PizzariaFalia.Data.csproj",
+        "projectPath": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Data\\PizzariaFalia.Data.csproj",
         "packagesPath": "C:\\Users\\nikis\\.nuget\\packages\\",
-        "outputPath": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Data\\obj\\",
+        "outputPath": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -179,11 +248,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Common\\PizzariaFalia.Common.csproj": {
-                "projectPath": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Common\\PizzariaFalia.Common.csproj"
+              "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Common\\PizzariaFalia.Common.csproj": {
+                "projectPath": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Common\\PizzariaFalia.Common.csproj"
               },
-              "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Data.Models\\PizzariaFalia.Data.Models.csproj": {
-                "projectPath": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Data.Models\\PizzariaFalia.Data.Models.csproj"
+              "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Data.Models\\PizzariaFalia.Data.Models.csproj": {
+                "projectPath": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Data.Models\\PizzariaFalia.Data.Models.csproj"
               }
             }
           }

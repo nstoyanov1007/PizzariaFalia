@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36221.1 d17.14
+VisualStudioVersion = 17.14.36221.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzariaFalia.Web", "PizzariaFalia\PizzariaFalia.Web.csproj", "{9EA8B43E-D0E5-47A7-9324-137A072AF234}"
 EndProject
@@ -20,6 +20,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzariaFalia.ViewModels", "PizzariaFalia.ViewModels\PizzariaFalia.ViewModels.csproj", "{A63FA1BC-887F-43D9-8918-E76E71F926F8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzariaFalia.Common", "PizzariaFalia.Common\PizzariaFalia.Common.csproj", "{89367E92-B880-4E80-B298-C5E66003040E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzariaFalia.Data.Models.Enums", "PizzariaFalia.Data.Models.Enums\PizzariaFalia.Data.Models.Enums.csproj", "{07805502-AD57-4BCF-B78E-16638F3616BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{89367E92-B880-4E80-B298-C5E66003040E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89367E92-B880-4E80-B298-C5E66003040E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89367E92-B880-4E80-B298-C5E66003040E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07805502-AD57-4BCF-B78E-16638F3616BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07805502-AD57-4BCF-B78E-16638F3616BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07805502-AD57-4BCF-B78E-16638F3616BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07805502-AD57-4BCF-B78E-16638F3616BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
