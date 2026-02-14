@@ -1,0 +1,11 @@
+E:\VisualStudio\.ASPNet\PizzariaFalia\PizzariaFalia.Common\bin\Debug\net8.0\PizzariaFalia.Common.deps.json
+E:\VisualStudio\.ASPNet\PizzariaFalia\PizzariaFalia.Common\bin\Debug\net8.0\PizzariaFalia.Common.dll
+E:\VisualStudio\.ASPNet\PizzariaFalia\PizzariaFalia.Common\bin\Debug\net8.0\PizzariaFalia.Common.pdb
+E:\VisualStudio\.ASPNet\PizzariaFalia\PizzariaFalia.Common\obj\Debug\net8.0\PizzariaFalia.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\VisualStudio\.ASPNet\PizzariaFalia\PizzariaFalia.Common\obj\Debug\net8.0\PizzariaFalia.Common.AssemblyInfoInputs.cache
+E:\VisualStudio\.ASPNet\PizzariaFalia\PizzariaFalia.Common\obj\Debug\net8.0\PizzariaFalia.Common.AssemblyInfo.cs
+E:\VisualStudio\.ASPNet\PizzariaFalia\PizzariaFalia.Common\obj\Debug\net8.0\PizzariaFalia.Common.csproj.CoreCompileInputs.cache
+E:\VisualStudio\.ASPNet\PizzariaFalia\PizzariaFalia.Common\obj\Debug\net8.0\PizzariaFalia.Common.dll
+E:\VisualStudio\.ASPNet\PizzariaFalia\PizzariaFalia.Common\obj\Debug\net8.0\refint\PizzariaFalia.Common.dll
+E:\VisualStudio\.ASPNet\PizzariaFalia\PizzariaFalia.Common\obj\Debug\net8.0\PizzariaFalia.Common.pdb
+E:\VisualStudio\.ASPNet\PizzariaFalia\PizzariaFalia.Common\obj\Debug\net8.0\ref\PizzariaFalia.Common.dll

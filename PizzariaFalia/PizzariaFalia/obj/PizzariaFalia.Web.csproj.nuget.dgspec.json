@@ -1,0 +1,518 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Web.csproj": {}
+  },
+  "projects": {
+    "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Common\\PizzariaFalia.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Common\\PizzariaFalia.Common.csproj",
+        "projectName": "PizzariaFalia.Common",
+        "projectPath": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Common\\PizzariaFalia.Common.csproj",
+        "packagesPath": "C:\\Users\\nikis\\.nuget\\packages\\",
+        "outputPath": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nikis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Data.Models\\PizzariaFalia.Data.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Data.Models\\PizzariaFalia.Data.Models.csproj",
+        "projectName": "PizzariaFalia.Data.Models",
+        "projectPath": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Data.Models\\PizzariaFalia.Data.Models.csproj",
+        "packagesPath": "C:\\Users\\nikis\\.nuget\\packages\\",
+        "outputPath": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Data.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nikis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Common\\PizzariaFalia.Common.csproj": {
+                "projectPath": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Common\\PizzariaFalia.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.17, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Data\\PizzariaFalia.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Data\\PizzariaFalia.Data.csproj",
+        "projectName": "PizzariaFalia.Data",
+        "projectPath": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Data\\PizzariaFalia.Data.csproj",
+        "packagesPath": "C:\\Users\\nikis\\.nuget\\packages\\",
+        "outputPath": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nikis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Common\\PizzariaFalia.Common.csproj": {
+                "projectPath": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Common\\PizzariaFalia.Common.csproj"
+              },
+              "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Data.Models\\PizzariaFalia.Data.Models.csproj": {
+                "projectPath": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Data.Models\\PizzariaFalia.Data.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.17, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Services.Core\\PizzariaFalia.Services.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Services.Core\\PizzariaFalia.Services.Core.csproj",
+        "projectName": "PizzariaFalia.Services.Core",
+        "projectPath": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Services.Core\\PizzariaFalia.Services.Core.csproj",
+        "packagesPath": "C:\\Users\\nikis\\.nuget\\packages\\",
+        "outputPath": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Services.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nikis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Data.Models\\PizzariaFalia.Data.Models.csproj": {
+                "projectPath": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Data.Models\\PizzariaFalia.Data.Models.csproj"
+              },
+              "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Data\\PizzariaFalia.Data.csproj": {
+                "projectPath": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Data\\PizzariaFalia.Data.csproj"
+              },
+              "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.ViewModels\\PizzariaFalia.ViewModels.csproj": {
+                "projectPath": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.ViewModels\\PizzariaFalia.ViewModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.17, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.ViewModels\\PizzariaFalia.ViewModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.ViewModels\\PizzariaFalia.ViewModels.csproj",
+        "projectName": "PizzariaFalia.ViewModels",
+        "projectPath": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.ViewModels\\PizzariaFalia.ViewModels.csproj",
+        "packagesPath": "C:\\Users\\nikis\\.nuget\\packages\\",
+        "outputPath": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.ViewModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nikis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Common\\PizzariaFalia.Common.csproj": {
+                "projectPath": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Common\\PizzariaFalia.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Web.csproj",
+        "projectName": "PizzariaFalia.Web",
+        "projectPath": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Web.csproj",
+        "packagesPath": "C:\\Users\\nikis\\.nuget\\packages\\",
+        "outputPath": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nikis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Common\\PizzariaFalia.Common.csproj": {
+                "projectPath": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Common\\PizzariaFalia.Common.csproj"
+              },
+              "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Data.Models\\PizzariaFalia.Data.Models.csproj": {
+                "projectPath": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Data.Models\\PizzariaFalia.Data.Models.csproj"
+              },
+              "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Data\\PizzariaFalia.Data.csproj": {
+                "projectPath": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Data\\PizzariaFalia.Data.csproj"
+              },
+              "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Services.Core\\PizzariaFalia.Services.Core.csproj": {
+                "projectPath": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.Services.Core\\PizzariaFalia.Services.Core.csproj"
+              },
+              "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.ViewModels\\PizzariaFalia.ViewModels.csproj": {
+                "projectPath": "E:\\VisualStudio\\.ASPNet\\PizzariaFalia\\PizzariaFalia.ViewModels\\PizzariaFalia.ViewModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.17, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.17, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[8.0.17, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

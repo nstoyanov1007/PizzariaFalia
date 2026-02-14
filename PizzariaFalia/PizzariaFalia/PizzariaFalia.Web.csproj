@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-PizzariaFalia-8f6e7931-40cd-441b-b005-f323fcf12beb</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.17" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.17" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.17" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.17" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.17" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PizzariaFalia.Common\PizzariaFalia.Common.csproj" />
+    <ProjectReference Include="..\PizzariaFalia.Data.Models\PizzariaFalia.Data.Models.csproj" />
+    <ProjectReference Include="..\PizzariaFalia.Data\PizzariaFalia.Data.csproj" />
+    <ProjectReference Include="..\PizzariaFalia.Services.Core\PizzariaFalia.Services.Core.csproj" />
+    <ProjectReference Include="..\PizzariaFalia.ViewModels\PizzariaFalia.ViewModels.csproj" />
+  </ItemGroup>
+
+</Project>

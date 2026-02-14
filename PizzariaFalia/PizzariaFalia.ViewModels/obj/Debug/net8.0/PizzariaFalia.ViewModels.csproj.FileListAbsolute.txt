@@ -1,0 +1,15 @@
+E:\VisualStudio\.ASPNet\PizzariaFalia\PizzariaFalia.ViewModels\bin\Debug\net8.0\PizzariaFalia.ViewModels.deps.json
+E:\VisualStudio\.ASPNet\PizzariaFalia\PizzariaFalia.ViewModels\bin\Debug\net8.0\PizzariaFalia.ViewModels.dll
+E:\VisualStudio\.ASPNet\PizzariaFalia\PizzariaFalia.ViewModels\bin\Debug\net8.0\PizzariaFalia.ViewModels.pdb
+E:\VisualStudio\.ASPNet\PizzariaFalia\PizzariaFalia.ViewModels\bin\Debug\net8.0\PizzariaFalia.Common.dll
+E:\VisualStudio\.ASPNet\PizzariaFalia\PizzariaFalia.ViewModels\bin\Debug\net8.0\PizzariaFalia.Common.pdb
+E:\VisualStudio\.ASPNet\PizzariaFalia\PizzariaFalia.ViewModels\obj\Debug\net8.0\PizzariaFalia.ViewModels.csproj.AssemblyReference.cache
+E:\VisualStudio\.ASPNet\PizzariaFalia\PizzariaFalia.ViewModels\obj\Debug\net8.0\PizzariaFalia.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+E:\VisualStudio\.ASPNet\PizzariaFalia\PizzariaFalia.ViewModels\obj\Debug\net8.0\PizzariaFalia.ViewModels.AssemblyInfoInputs.cache
+E:\VisualStudio\.ASPNet\PizzariaFalia\PizzariaFalia.ViewModels\obj\Debug\net8.0\PizzariaFalia.ViewModels.AssemblyInfo.cs
+E:\VisualStudio\.ASPNet\PizzariaFalia\PizzariaFalia.ViewModels\obj\Debug\net8.0\PizzariaFalia.ViewModels.csproj.CoreCompileInputs.cache
+E:\VisualStudio\.ASPNet\PizzariaFalia\PizzariaFalia.ViewModels\obj\Debug\net8.0\Pizzaria.3CC792BF.Up2Date
+E:\VisualStudio\.ASPNet\PizzariaFalia\PizzariaFalia.ViewModels\obj\Debug\net8.0\PizzariaFalia.ViewModels.dll
+E:\VisualStudio\.ASPNet\PizzariaFalia\PizzariaFalia.ViewModels\obj\Debug\net8.0\refint\PizzariaFalia.ViewModels.dll
+E:\VisualStudio\.ASPNet\PizzariaFalia\PizzariaFalia.ViewModels\obj\Debug\net8.0\PizzariaFalia.ViewModels.pdb
+E:\VisualStudio\.ASPNet\PizzariaFalia\PizzariaFalia.ViewModels\obj\Debug\net8.0\ref\PizzariaFalia.ViewModels.dll

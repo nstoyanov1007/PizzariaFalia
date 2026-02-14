@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "PizzariaFalia.ViewModels/1.0.0": {
+        "dependencies": {
+          "PizzariaFalia.Common": "1.0.0"
+        },
+        "runtime": {
+          "PizzariaFalia.ViewModels.dll": {}
+        }
+      },
+      "PizzariaFalia.Common/1.0.0": {
+        "runtime": {
+          "PizzariaFalia.Common.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PizzariaFalia.ViewModels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PizzariaFalia.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
