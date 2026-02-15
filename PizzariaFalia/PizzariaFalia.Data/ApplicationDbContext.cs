@@ -13,17 +13,12 @@ namespace PizzariaFalia.Data
         }
         public DbSet<Dish> Dishes { get; set; }
         public DbSet<Category> Categories { get; set; }
-        public DbSet<Ingredient> Ingredients { get; set; }
-        public DbSet<DishIngredient> DishesIngridients { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderItem> OrderItems { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
-
-            builder.Entity<DishIngredient>()
-                .HasKey(di => new { di.DishId, di.IngredientId });
 
             builder.Entity<Category>()
                 .HasOne(c => c.ParentCategory)

@@ -237,7 +237,8 @@ namespace PizzariaFalia.Data.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("DisplayName")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -268,7 +269,12 @@ namespace PizzariaFalia.Data.Migrations
                     b.Property<int>("CategoryId")
                         .HasColumnType("int");
 
-                    b.Property<decimal>("GramsBig")
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasMaxLength(1000)
+                        .HasColumnType("nvarchar(1000)");
+
+                    b.Property<decimal?>("GramsBig")
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<decimal>("GramsSmall")
@@ -279,7 +285,7 @@ namespace PizzariaFalia.Data.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
-                    b.Property<decimal>("PriceBig")
+                    b.Property<decimal?>("PriceBig")
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<decimal>("PriceSmall")
@@ -293,42 +299,6 @@ namespace PizzariaFalia.Data.Migrations
                     b.HasIndex("CategoryId");
 
                     b.ToTable("Dishes");
-                });
-
-            modelBuilder.Entity("PizzariaFalia.Data.Models.DishIngredient", b =>
-                {
-                    b.Property<int>("DishId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("IngredientId")
-                        .HasColumnType("int");
-
-                    b.HasKey("DishId", "IngredientId");
-
-                    b.HasIndex("IngredientId");
-
-                    b.ToTable("DishesIngridients");
-                });
-
-            modelBuilder.Entity("PizzariaFalia.Data.Models.Ingredient", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasMaxLength(30)
-                        .HasColumnType("nvarchar(30)");
-
-                    b.Property<bool>("isDeleted")
-                        .HasColumnType("bit");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Ingredients");
                 });
 
             modelBuilder.Entity("PizzariaFalia.Data.Models.Order", b =>
@@ -457,25 +427,6 @@ namespace PizzariaFalia.Data.Migrations
                     b.Navigation("Category");
                 });
 
-            modelBuilder.Entity("PizzariaFalia.Data.Models.DishIngredient", b =>
-                {
-                    b.HasOne("PizzariaFalia.Data.Models.Dish", "Dish")
-                        .WithMany("DishIngredients")
-                        .HasForeignKey("DishId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("PizzariaFalia.Data.Models.Ingredient", "Ingredient")
-                        .WithMany("IngredientDishes")
-                        .HasForeignKey("IngredientId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Dish");
-
-                    b.Navigation("Ingredient");
-                });
-
             modelBuilder.Entity("PizzariaFalia.Data.Models.Order", b =>
                 {
                     b.HasOne("PizzariaFalia.Data.Models.ApplicationUser", "User")
@@ -516,16 +467,6 @@ namespace PizzariaFalia.Data.Migrations
                     b.Navigation("Dishes");
 
                     b.Navigation("SubCategories");
-                });
-
-            modelBuilder.Entity("PizzariaFalia.Data.Models.Dish", b =>
-                {
-                    b.Navigation("DishIngredients");
-                });
-
-            modelBuilder.Entity("PizzariaFalia.Data.Models.Ingredient", b =>
-                {
-                    b.Navigation("IngredientDishes");
                 });
 
             modelBuilder.Entity("PizzariaFalia.Data.Models.Order", b =>

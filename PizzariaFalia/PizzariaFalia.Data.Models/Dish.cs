@@ -18,22 +18,22 @@ namespace PizzariaFalia.Data.Models
         [MaxLength(ValidationConstants.DishNameMaxLength)]
         public string Name { get; set; } = null!;
 
+        [MaxLength(ValidationConstants.DishDescriptionMaxLength)]
+        public string Description { get; set; } = null!;
+
         [Required]
         public decimal PriceSmall { get; set; }
         [Required]
         public decimal GramsSmall { get; set; }
 
         //Not every dish can be big, so these are left as non-mandatory
-        public decimal PriceBig { get; set; }
-        public decimal GramsBig { get; set; }
+        public decimal? PriceBig { get; set; }
+        public decimal? GramsBig { get; set; }
 
         [Required]
         public int CategoryId { get; set; }
         public virtual Category Category { get; set; } = null!;
 
         public bool isDeleted { get; set; }
-
-        public virtual ICollection<DishIngredient> DishIngredients { get; set; }
-            = new HashSet<DishIngredient>();
     }
 }

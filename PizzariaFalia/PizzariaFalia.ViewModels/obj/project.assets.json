@@ -11,6 +11,16 @@
         "runtime": {
           "bin/placeholder/PizzariaFalia.Common.dll": {}
         }
+      },
+      "PizzariaFalia.Data.Models.Enums/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/PizzariaFalia.Data.Models.Enums.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PizzariaFalia.Data.Models.Enums.dll": {}
+        }
       }
     }
   },
@@ -19,11 +29,17 @@
       "type": "project",
       "path": "../PizzariaFalia.Common/PizzariaFalia.Common.csproj",
       "msbuildProject": "../PizzariaFalia.Common/PizzariaFalia.Common.csproj"
+    },
+    "PizzariaFalia.Data.Models.Enums/1.0.0": {
+      "type": "project",
+      "path": "../PizzariaFalia.Data.Models.Enums/PizzariaFalia.Data.Models.Enums.csproj",
+      "msbuildProject": "../PizzariaFalia.Data.Models.Enums/PizzariaFalia.Data.Models.Enums.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "PizzariaFalia.Common >= 1.0.0"
+      "PizzariaFalia.Common >= 1.0.0",
+      "PizzariaFalia.Data.Models.Enums >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -61,6 +77,9 @@
           "projectReferences": {
             "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Common\\PizzariaFalia.Common.csproj": {
               "projectPath": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Common\\PizzariaFalia.Common.csproj"
+            },
+            "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Data.Models.Enums\\PizzariaFalia.Data.Models.Enums.csproj": {
+              "projectPath": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Data.Models.Enums\\PizzariaFalia.Data.Models.Enums.csproj"
             }
           }
         }

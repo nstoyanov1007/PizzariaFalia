@@ -21,9 +21,6 @@ namespace PizzariaFalia.Data.Models
         public Status Status { get; set; }
 
         [Required]
-        public bool IsPickup { get; set; }
-
-        [Required]
         public DateTime CreatedAt { get; set; }
 
         public virtual ICollection<OrderItem> OrderItems { get; set; }

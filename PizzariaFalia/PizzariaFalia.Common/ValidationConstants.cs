@@ -12,12 +12,11 @@ namespace PizzariaFalia.Common
         public const int DishNameMaxLength = 50;
         public const int DishNameMinLength = 3;
 
+        public const int DishDescriptionMaxLength = 1000;
+        public const int DishDescriptionMinLength = 10;
+
         //Category
         public const int CategoryNameMaxLength = 50;
-        public const int CategoryNameMinLength = 3;
-
-        //Topping
-        public const int ToppingNameMaxLength = 30;
-        public const int ToppingNameMinLength = 3;
+        public const int CategoryNameMinLength = 3; 
     }
 }

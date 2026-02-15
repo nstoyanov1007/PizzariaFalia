@@ -2,6 +2,7 @@
 using PizzariaFalia.Data;
 using PizzariaFalia.Data.Models;
 using PizzariaFalia.Services.Core.Contracts;
+using PizzariaFalia.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,9 +19,9 @@ namespace PizzariaFalia.Services.Core
             _context = context;
         }
 
-        public async Task<IEnumerable<Category>> GetAllCategoriesAsync()
+        public async Task<IEnumerable<CategoryTreeViewModel>> GetAllCategoriesAsync()
         {
-            await _context.Categories.ToListAsync();
+            throw new NotImplementedException();
         }
 
         public async Task<IEnumerable<Dish>> GetAllDishesAsync()

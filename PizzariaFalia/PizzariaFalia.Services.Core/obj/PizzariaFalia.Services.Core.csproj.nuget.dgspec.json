@@ -433,6 +433,9 @@
             "projectReferences": {
               "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Common\\PizzariaFalia.Common.csproj": {
                 "projectPath": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Common\\PizzariaFalia.Common.csproj"
+              },
+              "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Data.Models.Enums\\PizzariaFalia.Data.Models.Enums.csproj": {
+                "projectPath": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Data.Models.Enums\\PizzariaFalia.Data.Models.Enums.csproj"
               }
             }
           }

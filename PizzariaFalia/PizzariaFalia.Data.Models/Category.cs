@@ -19,6 +19,7 @@ namespace PizzariaFalia.Data.Models
 
         //Fully for customisation purposes and to make category visualiation easier
         //E.g. - Category (Pizza), Subcategory(Name = Pizza with meat products, DisplayName = with Meat Products)
+        [MaxLength(ValidationConstants.CategoryNameMaxLength)]
         public string? DisplayName { get; set; } 
 
         //If null - Master category

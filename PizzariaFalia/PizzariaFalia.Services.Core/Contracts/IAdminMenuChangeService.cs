@@ -17,9 +17,5 @@ namespace PizzariaFalia.Services.Core.Contracts
         Task CreateDishAsync(Dish dish);
         Task DeleteDishAsync(int dishid);
 
-        //Ingredients
-        Task<IEnumerable<Ingredient>> GetAllIngredientsAsync();
-        Task CreateIngredientAsync(Ingredient ingredient);
-        Task DeleteIngredientAsync(int ingredientId);
     }
 }
