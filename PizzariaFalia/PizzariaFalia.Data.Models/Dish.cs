@@ -31,6 +31,8 @@ namespace PizzariaFalia.Data.Models
         public int CategoryId { get; set; }
         public virtual Category Category { get; set; } = null!;
 
+        public bool isDeleted { get; set; }
+
         public virtual ICollection<DishIngredient> DishIngredients { get; set; }
             = new HashSet<DishIngredient>();
     }

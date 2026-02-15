@@ -11,7 +11,6 @@ namespace PizzariaFalia.Services.Core.Contracts
     public interface IOrderService
     {
         Task SubmitOrderAsync(int orderId);
-        Task DeleteOrderAsync(int orderId);
         Task ChangeOrderStatusAsync(int orderId, Status status);
 
         Task<IEnumerable<OrderItem>> GetOrderItemsAsync(int orderId);

@@ -10,7 +10,7 @@ namespace PizzariaFalia.Services.Core.Contracts
     public interface ICartService
     {
         Task CreateCartOrderAsync(string userId);
-        Task DeleteCartOrderAsync(int orderId);
+        Task CancelCartOrderAsync(int orderId);
 
         Task AddItemToCartAsync(int orderId, int DishId, bool isDishBig);
         Task RemoveItemFromCartAsync(int orderId, int orderItemId);

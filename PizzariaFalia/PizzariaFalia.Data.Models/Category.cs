@@ -26,6 +26,8 @@ namespace PizzariaFalia.Data.Models
         public int? ParentCategoryId { get; set; }
         public virtual Category? ParentCategory { get; set; }
 
+        public bool isDeleted { get; set; }
+
         public virtual ICollection<Dish> Dishes { get; set; } 
             = new HashSet<Dish>();
         public virtual ICollection<Category> SubCategories { get; set; }

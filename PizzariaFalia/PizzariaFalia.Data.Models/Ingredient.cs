@@ -17,6 +17,8 @@ namespace PizzariaFalia.Data.Models
         [MaxLength(ValidationConstants.ToppingNameMaxLength)]
         public string Name { get; set; } = null!;
 
+        public bool isDeleted { get; set; }
+
         public virtual ICollection<DishIngredient> IngredientDishes { get; set; }
             = new HashSet<DishIngredient>();
     }
