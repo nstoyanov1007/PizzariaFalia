@@ -29,3 +29,5 @@ E:\VisualStudio\.ASPNet\AspNetProject\PizzariaFalia\PizzariaFalia\PizzariaFalia.
 E:\VisualStudio\.ASPNet\AspNetProject\PizzariaFalia\PizzariaFalia\PizzariaFalia.ViewModels\obj\Debug\net8.0\refint\PizzariaFalia.ViewModels.dll
 E:\VisualStudio\.ASPNet\AspNetProject\PizzariaFalia\PizzariaFalia\PizzariaFalia.ViewModels\obj\Debug\net8.0\PizzariaFalia.ViewModels.pdb
 E:\VisualStudio\.ASPNet\AspNetProject\PizzariaFalia\PizzariaFalia\PizzariaFalia.ViewModels\obj\Debug\net8.0\ref\PizzariaFalia.ViewModels.dll
+E:\VisualStudio\.ASPNet\AspNetProject\PizzariaFalia\PizzariaFalia\PizzariaFalia.ViewModels\bin\Debug\net8.0\PizzariaFalia.Data.Models.Enums.dll
+E:\VisualStudio\.ASPNet\AspNetProject\PizzariaFalia\PizzariaFalia\PizzariaFalia.ViewModels\bin\Debug\net8.0\PizzariaFalia.Data.Models.Enums.pdb

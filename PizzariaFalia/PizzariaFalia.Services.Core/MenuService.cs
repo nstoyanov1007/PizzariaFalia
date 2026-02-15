@@ -21,22 +21,76 @@ namespace PizzariaFalia.Services.Core
 
         public async Task<IEnumerable<CategoryTreeViewModel>> GetAllCategoriesAsync()
         {
-            throw new NotImplementedException();
+            return await _context.Categories
+                .Where(c => !c.isDeleted)
+                .Include(c => c.SubCategories)
+                .Select(c => new CategoryTreeViewModel
+                {
+                    Id = c.Id,
+                    Name = c.Name,
+                    Children = c.SubCategories.Where(c2 => !c2.isDeleted)
+                        .Select(c2 => new CategoryTreeViewModel
+                        {
+                            Id = c2.Id,
+                            Name = c2.Name,
+                        }).ToList()
+                }).ToListAsync();
         }
 
-        public async Task<IEnumerable<Dish>> GetAllDishesAsync()
+        public async Task<IEnumerable<DishIndexViewModel>> GetAllDishesIndexAsync()
         {
-            throw new NotImplementedException();
+            return await _context.Dishes
+                .Where(d => !d.isDeleted)
+                .Select(d => new DishIndexViewModel
+                {
+                    Id = d.Id,
+                    Name = d.Name,
+                    GramsBig = d.GramsBig,
+                    GramsSmall = d.GramsSmall,
+                    PriceBig = d.PriceBig,
+                    PriceSmall = d.PriceSmall,
+                }).ToListAsync();
         }
 
-        public async Task<Dish> GetDishDetailsAsync(int dishId)
+        public async Task<DishDetailsViewModel> GetDishDetailsAsync(int dishId)
         {
-            throw new NotImplementedException();
+            var dish = await _context.Dishes
+                .Where(d => !d.isDeleted && d.Id == dishId)
+                .Include(d => d.Category)
+                .Select(d => new DishDetailsViewModel
+                {
+                    Id = d.Id,
+                    Name = d.Name,
+                    Description = d.Description,
+                    GramsBig = d.GramsBig,
+                    GramsSmall = d.GramsSmall,
+                    PriceBig = d.PriceBig,
+                    PriceSmall = d.PriceSmall,
+                    CategoryName = d.Category.Name
+                }).FirstOrDefaultAsync();
+
+            if (dish != null)
+                return dish;
+            else
+                throw new InvalidDataException("Dish does not exist");
         }
 
-        public async Task<IEnumerable<Dish>> GetDishesByCategoryAsync(int categoryId)
+        public async Task<IEnumerable<DishIndexViewModel>> GetDishesIndexByCategoryAsync(int categoryId)
         {
-            throw new NotImplementedException();
+            var dish = await _context.Dishes
+                .Include(d => d.Category)
+                .Where(d => !d.isDeleted && d.CategoryId == categoryId)
+                .Select(d => new DishIndexViewModel
+                {
+                    Id = d.Id,
+                    Name = d.Name,
+                    GramsBig = d.GramsBig,
+                    GramsSmall = d.GramsSmall,
+                    PriceBig = d.PriceBig,
+                    PriceSmall = d.PriceSmall,
+                }).ToListAsync();
+
+            return dish;
         }
     }
 }

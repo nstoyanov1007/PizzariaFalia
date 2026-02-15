@@ -11,6 +11,6 @@ namespace PizzariaFalia.ViewModels
         public ICollection<OrderItemViewModel> Items { get; set; }
            = new HashSet<OrderItemViewModel>();
 
-        public decimal TotalPrice => Items.Sum(x => x.Price);
+        public decimal? TotalPrice => Items.Sum(x => x.Price);
     }
 }

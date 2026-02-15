@@ -1,5 +1,6 @@
 ﻿using PizzariaFalia.Data.Models;
 using PizzariaFalia.Data.Models.Enums;
+using PizzariaFalia.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,10 +11,10 @@ namespace PizzariaFalia.Services.Core.Contracts
 {
     public interface IOrderService
     {
-        Task SubmitOrderAsync(int orderId);
         Task ChangeOrderStatusAsync(int orderId, Status status);
 
-        Task<IEnumerable<OrderItem>> GetOrderItemsAsync(int orderId);
-        Task<IEnumerable<Order>> GetOrdersAsync(string userId);
+        Task<IEnumerable<OrderItemViewModel>> GetOrderItemsAsync(int orderId);
+        Task<IEnumerable<OrderIndexViewModel>> GetAllOrdersAsync();
+        Task<OrderDetailsViewModel> GetOrderDetailsAsync(int orderId);
     }
 }

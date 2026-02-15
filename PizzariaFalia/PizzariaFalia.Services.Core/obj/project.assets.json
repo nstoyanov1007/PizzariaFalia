@@ -2980,6 +2980,7 @@
       "Microsoft.Extensions.DependencyInjection >= 8.0.1",
       "PizzariaFalia.Data >= 1.0.0",
       "PizzariaFalia.Data.Models >= 1.0.0",
+      "PizzariaFalia.Data.Models.Enums >= 1.0.0",
       "PizzariaFalia.ViewModels >= 1.0.0"
     ]
   },
@@ -3016,6 +3017,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Data.Models.Enums\\PizzariaFalia.Data.Models.Enums.csproj": {
+              "projectPath": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Data.Models.Enums\\PizzariaFalia.Data.Models.Enums.csproj"
+            },
             "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Data.Models\\PizzariaFalia.Data.Models.csproj": {
               "projectPath": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Data.Models\\PizzariaFalia.Data.Models.csproj"
             },

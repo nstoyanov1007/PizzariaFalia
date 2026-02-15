@@ -1,4 +1,5 @@
 ﻿using PizzariaFalia.Data.Models;
+using PizzariaFalia.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,13 +11,11 @@ namespace PizzariaFalia.Services.Core.Contracts
     public interface ICartService
     {
         Task CreateCartOrderAsync(string userId);
-        Task CancelCartOrderAsync(int orderId);
 
-        Task AddItemToCartAsync(int orderId, int DishId, bool isDishBig);
-        Task RemoveItemFromCartAsync(int orderId, int orderItemId);
+        Task AddItemToCartAsync(DishDetailsViewModel item, string userId);
+        Task AddItemToCartAsync(DishIndexViewModel item, string userId);
+        Task RemoveItemFromCartAsync(OrderItemViewModel item, string userId);
 
-        Task<IEnumerable<OrderItem>> GetCartItemsAsync(int orderId);
-        Task<IEnumerable<OrderItem>> GetCartItemsAsync(string userId);
-
+        Task<IEnumerable<OrderItemViewModel>> GetCartItemsAsync(string userId);
     }
 }

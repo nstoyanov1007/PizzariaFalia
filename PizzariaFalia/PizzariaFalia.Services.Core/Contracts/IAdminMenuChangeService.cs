@@ -1,4 +1,5 @@
 ﻿using PizzariaFalia.Data.Models;
+using PizzariaFalia.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,11 +11,13 @@ namespace PizzariaFalia.Services.Core.Contracts
     public interface IAdminMenuChangeService
     {
         //Category
-        Task CreateCategoryAsync(Category category);
+        Task CreateCategoryAsync(CategoryFormViewModel category);
+        Task EditCategoryAsync(CategoryFormViewModel category);
         Task DeleteCategoryAsync(int categoryId);
         
         //Dish
-        Task CreateDishAsync(Dish dish);
+        Task CreateDishAsync(DishFormViewModel dish);
+        Task EditDishAsync(DishFormViewModel dish);
         Task DeleteDishAsync(int dishid);
 
     }

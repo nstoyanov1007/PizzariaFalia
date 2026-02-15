@@ -17,5 +17,7 @@ namespace PizzariaFalia.ViewModels
 
         public decimal? PriceBig { get; set; }
         public decimal? GramsBig { get; set; }
+
+        public bool IsBig { get; set; }
     }
 }

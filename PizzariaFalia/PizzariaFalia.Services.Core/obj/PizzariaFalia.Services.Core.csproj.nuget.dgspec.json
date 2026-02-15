@@ -341,6 +341,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Data.Models.Enums\\PizzariaFalia.Data.Models.Enums.csproj": {
+                "projectPath": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Data.Models.Enums\\PizzariaFalia.Data.Models.Enums.csproj"
+              },
               "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Data.Models\\PizzariaFalia.Data.Models.csproj": {
                 "projectPath": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Data.Models\\PizzariaFalia.Data.Models.csproj"
               },

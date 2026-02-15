@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PizzariaFalia.ViewModels
 {
-    public class OrderListViewModel
+    public class OrderIndexViewModel
     {
         public int Id { get; set; }
         public string UserId { get; set; } = null!;

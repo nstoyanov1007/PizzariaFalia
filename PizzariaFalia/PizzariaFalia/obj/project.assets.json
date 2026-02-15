@@ -3010,6 +3010,7 @@
           "Microsoft.Extensions.DependencyInjection": "8.0.1",
           "PizzariaFalia.Data": "1.0.0",
           "PizzariaFalia.Data.Models": "1.0.0",
+          "PizzariaFalia.Data.Models.Enums": "1.0.0",
           "PizzariaFalia.ViewModels": "1.0.0"
         },
         "compile": {

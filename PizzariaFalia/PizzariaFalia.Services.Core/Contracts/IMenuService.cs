@@ -11,8 +11,8 @@ namespace PizzariaFalia.Services.Core.Contracts
     public interface IMenuService
     {
         Task<IEnumerable<CategoryTreeViewModel>> GetAllCategoriesAsync();
-        Task<IEnumerable<Dish>> GetAllDishesAsync();
-        Task<IEnumerable<Dish>> GetDishesByCategoryAsync(int categoryId);
-        Task<Dish> GetDishDetailsAsync(int dishId);
+        Task<IEnumerable<DishIndexViewModel>> GetAllDishesIndexAsync();
+        Task<IEnumerable<DishIndexViewModel>> GetDishesIndexByCategoryAsync(int categoryId);
+        Task<DishDetailsViewModel> GetDishDetailsAsync(int dishId);
     }
 }

@@ -8,9 +8,10 @@ namespace PizzariaFalia.ViewModels
 {
     public class OrderItemViewModel
     {
+        public int Id { get; set; }
         public int DishId { get; set; }
         public string DishName { get; set; } = null!;
-        public decimal Price { get; set; }
+        public decimal? Price { get; set; }
         public bool IsBig { get; set; }
 
     }

@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\PizzariaFalia.Data.Models.Enums\PizzariaFalia.Data.Models.Enums.csproj" />
     <ProjectReference Include="..\PizzariaFalia.Data.Models\PizzariaFalia.Data.Models.csproj" />
     <ProjectReference Include="..\PizzariaFalia.Data\PizzariaFalia.Data.csproj" />
     <ProjectReference Include="..\PizzariaFalia.ViewModels\PizzariaFalia.ViewModels.csproj" />
