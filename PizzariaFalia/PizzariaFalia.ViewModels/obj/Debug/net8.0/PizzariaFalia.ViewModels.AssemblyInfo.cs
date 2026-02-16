@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PizzariaFalia.ViewModels")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25a6f4ac8b483676d9dfb196a21c2bd83ae14f49")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+708cc42ebbdb6d58886d8596e1f6d40e2a2cc51d")]
 [assembly: System.Reflection.AssemblyProductAttribute("PizzariaFalia.ViewModels")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PizzariaFalia.ViewModels")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -2,10 +2,15 @@
 
 <div class="row">
     <div class="col-3">
+        <ul class="list-group list-group-flush mb-2">
+            <li class="list-group-item border-0 px-0">
+                <a class="d-block px-3 py-2 rounded text-decoration-none category-link"
+                   asp-controller="Menu" asp-action="Index">All</a>
+            </li>
+        </ul>
         <partial name="_CategoryTree" model="Model.Categories" />
     </div>
     <div class="col-9">
-
         <div class="row">
             @foreach (var dish in Model.Dishes)
             {
@@ -16,3 +21,15 @@
         </div>
     </div>
 </div>
+
+<style>
+    .category-link {
+        transition: all .15s ease-in-out;
+        color: #212529;
+    }
+
+        .category-link:hover {
+            background: #f8f9fa;
+            color: #dc3545;
+        }
+</style>

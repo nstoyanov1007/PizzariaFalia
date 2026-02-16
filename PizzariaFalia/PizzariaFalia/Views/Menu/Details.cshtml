@@ -1,43 +1,50 @@
 ﻿@model DishDetailsViewModel
-
-<h2>@Model.Name</h2>
-<p class="text-break">@Model.Description</p>
-
-@if (User.Identity.IsAuthenticated)
-{
-    <form asp-controller="Cart" asp-action="AddFromDetails" method="post">
-        <input type="hidden" name="DishId" value="@Model.Id" />
-
-        <div class="form-group">
-            <label>Select Size:</label>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="IsBig" value="false" checked />
-                <label class="form-check-label">Small (@Model.PriceSmall€) - @Model.GramsSmall g.</label>
-            </div>
-            @if (Model.PriceBig.HasValue && Model.GramsBig.HasValue)
-            {
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="IsBig" value="true" />
-                    <label class="form-check-label">Big (@Model.PriceBig€) - @Model.GramsBig g.</label>
-                </div>
-            }
-        </div>
-
-        <button class="btn btn-success">Add To Cart</button>
-    </form>
-
-    @if (User.IsInRole("Admin"))
+<div class="card shadow-sm border-0 rounded-4 p-4 dish-details">
+    <h2 class="mb-2">@Model.Name</h2>
+    <p class="text-muted mb-4">@Model.Description</p>
+    @if (User.Identity.IsAuthenticated)
     {
-        <form asp-controller="AdminMenu" asp-action="DeleteDish" method="post">
+        <form asp-controller="Cart" asp-action="AddFromDetails" method="post" class="d-flex flex-column gap-3">
             <input type="hidden" name="DishId" value="@Model.Id" />
-            <button class="btn btn-danger">Delete Dish</button>
+            <div>
+                <label class="form-label fw-semibold">Select Size</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="IsBig" value="false" checked />
+                    <label class="form-check-label">Small (<b>@Model.PriceSmall€</b>) - <b>@Model.GramsSmall g.</b></label>
+                </div>
+                @if (Model.PriceBig.HasValue && Model.GramsBig.HasValue)
+                {
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="IsBig" value="true" />
+                        <label class="form-check-label">Big (<b>@Model.PriceBig€</b>) - <b>@Model.GramsBig g.</b></label>
+                    </div>
+                }
+            </div>
+            <div class="d-flex gap-2 flex-wrap">
+                <button class="btn btn-success px-4">Add To Cart</button>
+                @if (User.IsInRole("Admin"))
+                {
+                    <form asp-controller="AdminMenu" asp-action="DeleteDish" method="post">
+                        <input type="hidden" name="DishId" value="@Model.Id" />
+                        <button class="btn btn-danger px-4">Delete Dish</button>
+                    </form>
+                }
+            </div>
         </form>
     }
-}
-else
-{
-    <a asp-area="Identity" asp-page="/Account/Login">
-        Login to order
-    </a>
-}
- 
+    else
+    {
+        <a asp-area="Identity" asp-page="/Account/Login" class="btn btn-outline-dark">Login to order</a>
+    }
+</div>
+<style>
+    .dish-details {
+        max-width: 650px;
+        margin: auto;
+        transition: .18s ease-in-out
+    }
+
+        .dish-details:hover {
+            box-shadow: 0 8px 22px rgba(0,0,0,.08)
+        }
+</style>

@@ -1,22 +1,19 @@
 ﻿@model IEnumerable<CategoryTreeViewModel>
-
-<ul class="list-group">
-
+<ul class="list-group list-group-flush">
     @foreach (var category in Model)
     {
-        <li class="list-group-item">
-            <a asp-controller="Menu"
-               asp-action="Index"
-               asp-route-categoryId="@category.Id">
-
-                @category.Name
-            </a>
-
+        <li class="list-group-item border-0 px-0">
+            <a class="d-block px-3 py-2 rounded text-decoration-none category-link" asp-controller="Menu" asp-action="Index" asp-route-categoryId="@category.Id">@category.Name</a>
             @if (category.Children.Any())
             {
-                <partial name="_CategoryTree" model="category.Children" />
+                <div class="ps-3 border-start">
+                    <partial name="_CategoryTree" model="category.Children" />
+                </div>
             }
         </li>
     }
-
 </ul>
+<style>
+    .category-link{transition:all .15s ease-in-out;color:#212529}
+    .category-link:hover{background:#f8f9fa;color:#dc3545}
+</style>
