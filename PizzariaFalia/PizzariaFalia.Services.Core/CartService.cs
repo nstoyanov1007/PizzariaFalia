@@ -6,6 +6,7 @@ using PizzariaFalia.Services.Core.Contracts;
 using PizzariaFalia.ViewModels;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -107,7 +108,10 @@ namespace PizzariaFalia.Services.Core
                         IsBig = oi.IsDishBig,
                         Price = oi.IsDishBig
                             ? oi.Dish.PriceBig
-                            : oi.Dish.PriceSmall
+                            : oi.Dish.PriceSmall,
+                        Grams = oi.IsDishBig
+                            ? oi.Dish.GramsBig :
+                            oi.Dish.GramsSmall,
                     })
                     .ToListAsync();
             }
@@ -131,6 +135,17 @@ namespace PizzariaFalia.Services.Core
                 Name = dish.Name,
                 Description = dish.Description,
             };
+        }
+
+        public async Task PlaceCartOrderAsync(string userId)
+        {
+            var order = await _context.Orders
+                .Where(o => o.UserId == userId && o.Status == Status.Pending)
+                .FirstOrDefaultAsync();
+
+            order.Status = Status.Ordered;
+
+            _context.SaveChanges();
         }
 
         public async Task RemoveItemFromCartAsync(OrderItemViewModel item, string userId)

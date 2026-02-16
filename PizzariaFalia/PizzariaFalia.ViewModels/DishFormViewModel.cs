@@ -22,6 +22,7 @@ namespace PizzariaFalia.ViewModels
         public string Description { get; set; } = null!;
 
         [Required]
+        [DataType(DataType.Currency)]
         public decimal PriceSmall { get; set; }
         [Required]
         public decimal GramsSmall { get; set; }

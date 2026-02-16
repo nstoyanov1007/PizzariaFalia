@@ -34,6 +34,8 @@ namespace PizzariaFalia.Services.Core
 
         public async Task CreateDishAsync(DishFormViewModel dish)
         {
+            Console.WriteLine(dish.PriceSmall);
+            Console.WriteLine(dish.GramsSmall);
             await _context.Dishes.AddAsync(new Dish()
             {
                 CategoryId = dish.CategoryId,
@@ -57,7 +59,7 @@ namespace PizzariaFalia.Services.Core
 
         public async Task DeleteDishAsync(int dishid)
         {
-            _context.Dishes.FirstAsync(c => c.Id == dishid).Result.isDeleted = true;
+            _context.Dishes.FirstAsync(d => d.Id == dishid).Result.isDeleted = true;
 
             await _context.SaveChangesAsync();
         }

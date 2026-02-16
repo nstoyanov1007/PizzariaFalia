@@ -12,6 +12,7 @@ namespace PizzariaFalia.ViewModels
         public int DishId { get; set; }
         public string DishName { get; set; } = null!;
         public decimal? Price { get; set; }
+        public decimal? Grams { get; set; } 
         public bool IsBig { get; set; }
 
     }

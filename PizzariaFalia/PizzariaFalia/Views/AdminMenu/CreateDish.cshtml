@@ -1,0 +1,68 @@
+﻿@model PizzariaFalia.ViewModels.DishFormViewModel
+
+@{
+    ViewData["Title"] = "CreateDish";
+}
+
+<h1>CreateDish</h1>
+
+<h4>DishFormViewModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="CreateDish">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input asp-for="Id" type="hidden" />
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PriceSmall" class="control-label"></label>
+                <input asp-for="PriceSmall" class="form-control" />
+                <span asp-validation-for="PriceSmall" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="GramsSmall" class="control-label"></label>
+                <input asp-for="GramsSmall" class="form-control" />
+                <span asp-validation-for="GramsSmall" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PriceBig" class="control-label"></label>
+                <input asp-for="PriceBig" class="form-control" />
+                <span asp-validation-for="PriceBig" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="GramsBig" class="control-label"></label>
+                <input asp-for="GramsBig" class="form-control" />
+                <span asp-validation-for="GramsBig" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CategoryId" class="control-label"></label>
+                <select asp-for="CategoryId"
+                        class="form-control"
+                        asp-items="@(ViewData["Categories"] as SelectList)">
+                    <option value="">-- No Parent --</option>
+                </select>
+                <span asp-validation-for="CategoryId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

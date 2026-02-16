@@ -1,0 +1,47 @@
+﻿@model OrderDetailsViewModel
+
+@{
+    ViewData["Title"] = "Order Details";
+}
+
+<h2>Order Details</h2>
+
+<div class="mb-3">
+    <p><strong>User:</strong> @Model.UserId</p>
+    <p><strong>Status:</strong> @Model.Status</p>
+    <p><strong>Created At:</strong> @Model.CreatedAt.ToString("g")</p>
+</div>
+
+@if (!Model.Items.Any())
+{
+    <p class="text-center text-muted">No items in this order.</p>
+}
+else
+{
+    <table class="table table-striped table-bordered">
+        <thead class="thead-dark">
+            <tr>
+                <th>Dish</th>
+                <th>Size</th>
+                <th>Grams</th>
+                <th>Price (€)</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Items)
+            {
+                <tr>
+                    <td>@item.DishName</td>
+                    <td>@(item.IsBig ? "Big" : "Small")</td>
+                    <td>@(item.Grams) g</td>
+                    <td>@item.Price</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div class="text-center my-3">
+        <h4>Total: @Model.TotalPrice€</h4>
+    </div>
+    }
+

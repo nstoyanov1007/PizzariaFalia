@@ -10,6 +10,10 @@ namespace PizzariaFalia.Controllers
         {
             return RedirectToAction("Index", "Menu");
         }
+        public IActionResult Privacy()
+        {
+            return View();
+        }
     }
 
 }

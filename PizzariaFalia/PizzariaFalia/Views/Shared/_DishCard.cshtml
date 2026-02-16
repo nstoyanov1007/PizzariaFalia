@@ -4,8 +4,12 @@
     <div class="card-body">
 
         <h5>@Model.Name</h5>
-        <p>@Model.PriceSmall€ - @Model.GramsSmall g.</p>
-        <p>@Model.PriceBig€ - @Model.GramsBig g.</p>
+        <p>Normal Portion: <b>@Model.PriceSmall€ </b> for <b>@Model.GramsSmall g.</b></p>
+
+        @if(@Model.PriceBig != null && Model.GramsBig != null)
+        {
+            <p>Big Portion: <b>@Model.PriceBig€</b> for <b>@Model.GramsBig g.</b></p>
+        }
 
         <a asp-controller="Menu"
            asp-action="Details"
@@ -13,6 +17,23 @@
            class="btn btn-primary">
             Details
         </a>
+        
+        @if (User.IsInRole("Admin"))
+        {
+            <a asp-controller="AdminMenu"
+               asp-action="EditDish"
+               asp-route-id="@Model.Id"
+               class="btn btn-warning">
+                Edit
+            </a>
+
+            <a asp-controller="AdminMenu"
+               asp-action="DeleteDish"
+               asp-route-id="@Model.Id"
+               class="btn btn-danger">
+                Delete
+            </a>
+        }
 
     </div>
 </div>

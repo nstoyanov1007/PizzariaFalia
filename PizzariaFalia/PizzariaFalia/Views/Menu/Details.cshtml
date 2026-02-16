@@ -2,15 +2,37 @@
 
 <h2>@Model.Name</h2>
 <p>@Model.Description</p>
-<p>@Model.PriceSmall€ - @Model.GramsSmall g.</p>
-<p>@Model.PriceBig€ - @Model.GramsBig g.</p>
 
 @if (User.Identity.IsAuthenticated)
 {
     <form asp-controller="Cart" asp-action="AddFromDetails" method="post">
         <input type="hidden" name="DishId" value="@Model.Id" />
+
+        <div class="form-group">
+            <label>Select Size:</label>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="IsBig" value="false" checked />
+                <label class="form-check-label">Small (@Model.PriceSmall€) - @Model.GramsSmall g.</label>
+            </div>
+            @if (Model.PriceBig.HasValue && Model.GramsBig.HasValue)
+            {
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="IsBig" value="true" />
+                    <label class="form-check-label">Big (@Model.PriceBig€) - @Model.GramsBig g.</label>
+                </div>
+            }
+        </div>
+
         <button class="btn btn-success">Add To Cart</button>
     </form>
+
+    @if (User.IsInRole("Admin"))
+    {
+        <form asp-controller="AdminMenu" asp-action="DeleteDish" method="post">
+            <input type="hidden" name="DishId" value="@Model.Id" />
+            <button class="btn btn-danger">Delete Dish</button>
+        </form>
+    }
 }
 else
 {
@@ -18,3 +40,4 @@ else
         Login to order
     </a>
 }
+ 

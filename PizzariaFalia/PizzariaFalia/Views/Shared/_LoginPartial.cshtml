@@ -7,6 +7,35 @@
 @if (SignInManager.IsSignedIn(User))
 {
     <li class="nav-item">
+        @if (User.Identity != null && User.Identity.IsAuthenticated)
+        {
+            <div class="ms-3">
+
+                <span style="font-size:12px;">
+                    ID: @User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value
+                </span>
+                
+                @if (!User.IsInRole("Admin"))
+                {
+                    <form asp-controller="AdminRole" asp-action="MakeAdmin" method="post" style="display:inline;">
+                        <button class="btn btn-sm btn-warning">
+                            Become Admin
+                        </button>
+                    </form>
+                }
+                else
+                {
+                    <form asp-controller="AdminRole" asp-action="RemoveAdmin" method="post" style="display:inline;">
+                        <button class="btn btn-sm btn-secondary">
+                            Remove Admin
+                        </button>
+                    </form>
+                }
+
+            </div>
+        }
+        </li>
+    <li class="nav-item">
         <a  class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @User.Identity?.Name!</a>
     </li>
     <li class="nav-item">

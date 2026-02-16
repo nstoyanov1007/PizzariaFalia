@@ -55,7 +55,10 @@ namespace PizzariaFalia.Services.Core
                     IsBig = oi.IsDishBig,
                     Price = oi.IsDishBig
                             ? oi.Dish.PriceBig
-                            : oi.Dish.PriceSmall
+                            : oi.Dish.PriceSmall,
+                    Grams = oi.IsDishBig
+                            ? oi.Dish.GramsBig
+                            : oi.Dish.GramsSmall
                 }).ToListAsync();
         }
 

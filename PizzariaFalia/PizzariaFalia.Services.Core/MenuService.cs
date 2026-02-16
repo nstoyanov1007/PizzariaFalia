@@ -66,7 +66,8 @@ namespace PizzariaFalia.Services.Core
                     GramsSmall = d.GramsSmall,
                     PriceBig = d.PriceBig,
                     PriceSmall = d.PriceSmall,
-                    CategoryName = d.Category.Name
+                    CategoryName = d.Category.Name,
+                    CategoryId = d.Category.Id,
                 }).FirstOrDefaultAsync();
 
             if (dish != null)
@@ -77,9 +78,14 @@ namespace PizzariaFalia.Services.Core
 
         public async Task<IEnumerable<DishIndexViewModel>> GetDishesIndexByCategoryAsync(int categoryId)
         {
-            var dish = await _context.Dishes
-                .Include(d => d.Category)
-                .Where(d => !d.isDeleted && d.CategoryId == categoryId)
+
+            var categoryIds = await _context.Categories
+                .Where(c => c.Id == categoryId || c.ParentCategoryId == categoryId)
+                .Select(c => c.Id)
+                .ToListAsync();
+
+            var dishes = await _context.Dishes
+                .Where(d => !d.isDeleted && categoryIds.Contains(d.CategoryId))
                 .Select(d => new DishIndexViewModel
                 {
                     Id = d.Id,
@@ -88,9 +94,11 @@ namespace PizzariaFalia.Services.Core
                     GramsSmall = d.GramsSmall,
                     PriceBig = d.PriceBig,
                     PriceSmall = d.PriceSmall,
-                }).ToListAsync();
+                })
+                .ToListAsync();
 
-            return dish;
+            return dishes;
+
         }
     }
 }

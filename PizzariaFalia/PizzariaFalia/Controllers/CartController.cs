@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using PizzariaFalia.Data.Models;
+using PizzariaFalia.Services.Core;
 using PizzariaFalia.Services.Core.Contracts;
 using PizzariaFalia.ViewModels;
 
@@ -30,10 +31,12 @@ namespace PizzariaFalia.Web.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> AddFromDetails(int dishId)
+        public async Task<IActionResult> AddFromDetails(int dishId, bool isBig)
         {
             var userId = userManager.GetUserId(User);
             var dishDetails = await cartService.GetDishDetailsAsync(dishId);
+
+            dishDetails.IsBig = isBig;
 
             await cartService.AddItemToCartAsync(dishDetails, userId);
 
@@ -48,6 +51,15 @@ namespace PizzariaFalia.Web.Controllers
             await cartService.RemoveItemFromCartAsync(item, userId);
 
             return RedirectToAction(nameof(Index));
+        }
+
+        public async Task<IActionResult> PlaceOrder()
+        {
+            var userId = userManager.GetUserId(User);
+
+            await cartService.PlaceCartOrderAsync(userId);
+
+            return RedirectToAction("Index", "Menu");
         }
     }
 
