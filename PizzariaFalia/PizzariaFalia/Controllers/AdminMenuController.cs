@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using PizzariaFalia.Services.Core.Contracts;
 using PizzariaFalia.ViewModels;
 
@@ -38,9 +39,16 @@ namespace PizzariaFalia.Web.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateCategory(CategoryFormViewModel vm)
         {
-            await adminService.CreateCategoryAsync(vm);
+            if (ModelState.IsValid)
+            {
+                await adminService.CreateCategoryAsync(vm);
 
-            return RedirectToAction(nameof(Dashboard));
+                return RedirectToAction(nameof(Dashboard));
+            }
+            else
+            {
+                return View(vm);
+            }
         }
 
 
@@ -62,11 +70,16 @@ namespace PizzariaFalia.Web.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateDish(DishFormViewModel vm)
         {
-            Console.WriteLine(vm.PriceSmall);
+            if (ModelState.IsValid)
+            {
+                await adminService.CreateDishAsync(vm);
 
-            await adminService.CreateDishAsync(vm);
-
-            return RedirectToAction(nameof(Dashboard));
+                return RedirectToAction(nameof(Dashboard));
+            }
+            else
+            {
+                return View(vm);
+            }
         }
 
 

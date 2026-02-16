@@ -24,17 +24,21 @@ namespace PizzariaFalia.Services.Core
 
         public async Task AddItemToCartAsync(DishDetailsViewModel item, string userId)
         {
-            Order? order = await _context.Orders
-                .Where(o => o.UserId == userId && o.Status == Status.Pending).FirstOrDefaultAsync();
+            if (item == null) throw new ArgumentNullException(nameof(item));
+            if (string.IsNullOrWhiteSpace(userId)) throw new ArgumentException("User ID is required", nameof(userId));
+
+            var order = await _context.Orders
+                .FirstOrDefaultAsync(o => o.UserId == userId && o.Status == Status.Pending);
 
             if (order == null)
             {
                 await CreateCartOrderAsync(userId);
 
                 order = await _context.Orders
-                    .Where(o => o.UserId == userId && o.Status == Status.Pending).FirstOrDefaultAsync();
+                    .FirstOrDefaultAsync(o => o.UserId == userId && o.Status == Status.Pending);
             }
-            
+
+            if (order == null) throw new InvalidOperationException("Unable to create or retrieve cart order.");
 
             await _context.OrderItems.AddAsync(new OrderItem()
             {
@@ -139,22 +143,26 @@ namespace PizzariaFalia.Services.Core
 
         public async Task PlaceCartOrderAsync(string userId)
         {
+            if (string.IsNullOrWhiteSpace(userId)) throw new ArgumentException("User ID is required", nameof(userId));
+
             var order = await _context.Orders
-                .Where(o => o.UserId == userId && o.Status == Status.Pending)
-                .FirstOrDefaultAsync();
+                .FirstOrDefaultAsync(o => o.UserId == userId && o.Status == Status.Pending);
+
+            if (order == null) throw new InvalidOperationException("No pending order found for this user.");
 
             order.Status = Status.Ordered;
-
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
         }
 
         public async Task RemoveItemFromCartAsync(OrderItemViewModel item, string userId)
         {
+            if (item == null) throw new ArgumentNullException(nameof(item));
+            if (string.IsNullOrWhiteSpace(userId)) throw new ArgumentException("User ID is required", nameof(userId));
+
             var orderItem = await _context.OrderItems
                 .FirstOrDefaultAsync(oi => oi.Id == item.Id);
 
-            if (orderItem == null)
-                return;
+            if (orderItem == null) return;
 
             _context.OrderItems.Remove(orderItem);
             await _context.SaveChangesAsync();
