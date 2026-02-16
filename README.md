@@ -18,7 +18,8 @@ The project is built with ASP.NET Core MVC using C#. It uses Entity Framework Co
 1. Clone the repository.
 2. Open the solution in Visual Studio.
 3. Change the database connection string inside `appsettings.json` to match your environment.
-4. Run the project from Visual Studio.
+4. Apply the migrations using `Update-Database` in the nuget package manager console
+5. Run the project from Visual Studio.
 
 ## Purpose
 
