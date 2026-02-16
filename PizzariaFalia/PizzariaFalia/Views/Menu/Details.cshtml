@@ -1,0 +1,20 @@
+﻿@model DishDetailsViewModel
+
+<h2>@Model.Name</h2>
+<p>@Model.Description</p>
+<p>@Model.PriceSmall€ - @Model.GramsSmall g.</p>
+<p>@Model.PriceBig€ - @Model.GramsBig g.</p>
+
+@if (User.Identity.IsAuthenticated)
+{
+    <form asp-controller="Cart" asp-action="AddFromDetails" method="post">
+        <input type="hidden" name="DishId" value="@Model.Id" />
+        <button class="btn btn-success">Add To Cart</button>
+    </form>
+}
+else
+{
+    <a asp-area="Identity" asp-page="/Account/Login">
+        Login to order
+    </a>
+}

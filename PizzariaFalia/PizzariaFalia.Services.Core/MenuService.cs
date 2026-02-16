@@ -22,7 +22,7 @@ namespace PizzariaFalia.Services.Core
         public async Task<IEnumerable<CategoryTreeViewModel>> GetAllCategoriesAsync()
         {
             return await _context.Categories
-                .Where(c => !c.isDeleted)
+                .Where(c => !c.isDeleted && c.ParentCategory == null)
                 .Include(c => c.SubCategories)
                 .Select(c => new CategoryTreeViewModel
                 {

@@ -1,0 +1,24 @@
+﻿@model MenuPageViewModel
+
+<div class="row">
+
+    <!-- LEFT CATEGORY TREE -->
+    <div class="col-3">
+        <partial name="_CategoryTree" model="Model.Categories" />
+    </div>
+
+    <!-- DISHES -->
+    <div class="col-9">
+
+        <div class="row">
+            @foreach (var dish in Model.Dishes)
+            {
+                <div class="col-md-4 mb-3">
+                    <partial name="_DishCard" model="dish" />
+                </div>
+            }
+        </div>
+
+    </div>
+
+</div>

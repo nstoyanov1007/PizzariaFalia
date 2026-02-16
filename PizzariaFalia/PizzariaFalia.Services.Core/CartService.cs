@@ -73,6 +73,7 @@ namespace PizzariaFalia.Services.Core
         {
             if (_context.Orders.Where(o => o.UserId == userId && o.Status == Status.Pending).Any())
                 return;
+
             else
             {
                 Order order = new Order()
@@ -100,7 +101,7 @@ namespace PizzariaFalia.Services.Core
                     .Include(oi => oi.Dish)
                     .Select(oi => new OrderItemViewModel()
                     {
-                        Id = oi.OrderId,
+                        Id = oi.Id,
                         DishId = oi.DishId,
                         DishName = oi.Dish.Name,
                         IsBig = oi.IsDishBig,
@@ -111,6 +112,25 @@ namespace PizzariaFalia.Services.Core
                     .ToListAsync();
             }
             return new List<OrderItemViewModel>();
+        }
+
+        public async Task<DishDetailsViewModel> GetDishDetailsAsync(int dishId)
+        {
+            Dish dish = await _context.Dishes
+                .Include(d => d.Category)
+                .FirstAsync(d => d.Id == dishId);
+
+            return new DishDetailsViewModel()
+            {
+                Id = dishId,
+                CategoryName = dish.Category.Name,
+                GramsSmall = dish.GramsSmall,
+                GramsBig = dish.GramsBig,
+                PriceSmall = dish.PriceSmall,
+                PriceBig = dish.PriceBig,
+                Name = dish.Name,
+                Description = dish.Description,
+            };
         }
 
         public async Task RemoveItemFromCartAsync(OrderItemViewModel item, string userId)

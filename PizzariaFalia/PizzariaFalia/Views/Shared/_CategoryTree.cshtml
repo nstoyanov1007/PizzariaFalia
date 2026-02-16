@@ -1,0 +1,22 @@
+﻿@model IEnumerable<CategoryTreeViewModel>
+
+<ul class="list-group">
+
+    @foreach (var category in Model)
+    {
+        <li class="list-group-item">
+            <a asp-controller="Menu"
+               asp-action="Index"
+               asp-route-categoryId="@category.Id">
+
+                @category.Name
+            </a>
+
+            @if (category.Children.Any())
+            {
+                <partial name="_CategoryTree" model="category.Children" />
+            }
+        </li>
+    }
+
+</ul>

@@ -17,5 +17,7 @@ namespace PizzariaFalia.Services.Core.Contracts
         Task RemoveItemFromCartAsync(OrderItemViewModel item, string userId);
 
         Task<IEnumerable<OrderItemViewModel>> GetCartItemsAsync(string userId);
+
+        Task<DishDetailsViewModel> GetDishDetailsAsync(int dishId);
     }
 }

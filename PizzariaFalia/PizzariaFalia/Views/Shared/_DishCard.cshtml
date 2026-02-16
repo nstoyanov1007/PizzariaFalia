@@ -1,0 +1,18 @@
+﻿@model DishIndexViewModel
+
+<div class="card">
+    <div class="card-body">
+
+        <h5>@Model.Name</h5>
+        <p>@Model.PriceSmall€ - @Model.GramsSmall g.</p>
+        <p>@Model.PriceBig€ - @Model.GramsBig g.</p>
+
+        <a asp-controller="Menu"
+           asp-action="Details"
+           asp-route-id="@Model.Id"
+           class="btn btn-primary">
+            Details
+        </a>
+
+    </div>
+</div>

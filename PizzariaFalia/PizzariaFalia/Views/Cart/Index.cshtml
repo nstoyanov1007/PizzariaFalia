@@ -1,0 +1,28 @@
+﻿@model IEnumerable<OrderItemViewModel>
+
+<h2>Your Cart</h2>
+
+<table class="table">
+
+    <tr>
+        <th>Dish</th>
+        <th>Price</th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.DishName</td>
+            <td>@item.Price</td>
+
+            <td>
+                <form asp-action="Remove" method="post">
+                    <input type="hidden" asp-for="@item.Id" />
+                    <button class="btn btn-danger">Remove</button>
+                </form>
+            </td>
+        </tr>
+    }
+
+</table>

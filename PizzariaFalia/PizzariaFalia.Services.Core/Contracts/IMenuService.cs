@@ -14,5 +14,7 @@ namespace PizzariaFalia.Services.Core.Contracts
         Task<IEnumerable<DishIndexViewModel>> GetAllDishesIndexAsync();
         Task<IEnumerable<DishIndexViewModel>> GetDishesIndexByCategoryAsync(int categoryId);
         Task<DishDetailsViewModel> GetDishDetailsAsync(int dishId);
+
+
     }
 }

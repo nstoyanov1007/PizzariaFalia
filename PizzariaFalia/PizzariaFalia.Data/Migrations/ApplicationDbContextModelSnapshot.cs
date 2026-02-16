@@ -256,6 +256,45 @@ namespace PizzariaFalia.Data.Migrations
                     b.HasIndex("ParentCategoryId");
 
                     b.ToTable("Categories");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            DisplayName = "Pizzas",
+                            Name = "Pizzas",
+                            isDeleted = false
+                        },
+                        new
+                        {
+                            Id = 2,
+                            DisplayName = "With Meat",
+                            Name = "Pizzas with meat",
+                            ParentCategoryId = 1,
+                            isDeleted = false
+                        },
+                        new
+                        {
+                            Id = 3,
+                            DisplayName = "No Meat",
+                            Name = "Pizzas with no meat",
+                            ParentCategoryId = 1,
+                            isDeleted = false
+                        },
+                        new
+                        {
+                            Id = 4,
+                            DisplayName = "Salads",
+                            Name = "Salads",
+                            isDeleted = false
+                        },
+                        new
+                        {
+                            Id = 5,
+                            DisplayName = "Desserts",
+                            Name = "Desserts",
+                            isDeleted = false
+                        });
                 });
 
             modelBuilder.Entity("PizzariaFalia.Data.Models.Dish", b =>
@@ -299,6 +338,86 @@ namespace PizzariaFalia.Data.Migrations
                     b.HasIndex("CategoryId");
 
                     b.ToTable("Dishes");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CategoryId = 3,
+                            Description = "Classic pizza with tomato sauce, mozzarella and fresh basil.",
+                            GramsBig = 750m,
+                            GramsSmall = 400m,
+                            Name = "Margherita",
+                            PriceBig = 10.90m,
+                            PriceSmall = 7.50m,
+                            isDeleted = false
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CategoryId = 2,
+                            Description = "Tomato sauce, mozzarella and spicy pepperoni.",
+                            GramsBig = 800m,
+                            GramsSmall = 450m,
+                            Name = "Pepperoni",
+                            PriceBig = 12.50m,
+                            PriceSmall = 8.90m,
+                            isDeleted = false
+                        },
+                        new
+                        {
+                            Id = 3,
+                            CategoryId = 2,
+                            Description = "Tomato sauce, mozzarella, ham and fresh mushrooms.",
+                            GramsBig = 820m,
+                            GramsSmall = 480m,
+                            Name = "Prosciutto Funghi",
+                            PriceBig = 13.20m,
+                            PriceSmall = 9.20m,
+                            isDeleted = false
+                        },
+                        new
+                        {
+                            Id = 4,
+                            CategoryId = 3,
+                            Description = "Tomato sauce, mozzarella, peppers, olives, onions and mushrooms.",
+                            GramsBig = 780m,
+                            GramsSmall = 460m,
+                            Name = "Vegetarian",
+                            PriceBig = 12.00m,
+                            PriceSmall = 8.70m,
+                            isDeleted = false
+                        },
+                        new
+                        {
+                            Id = 5,
+                            CategoryId = 4,
+                            Description = "Iceberg lettuce, grilled chicken, croutons, parmesan and Caesar dressing.",
+                            GramsSmall = 350m,
+                            Name = "Caesar Salad",
+                            PriceSmall = 7.80m,
+                            isDeleted = false
+                        },
+                        new
+                        {
+                            Id = 6,
+                            CategoryId = 4,
+                            Description = "Tomatoes, cucumbers, olives, feta cheese and olive oil.",
+                            GramsSmall = 330m,
+                            Name = "Greek Salad",
+                            PriceSmall = 6.90m,
+                            isDeleted = false
+                        },
+                        new
+                        {
+                            Id = 7,
+                            CategoryId = 5,
+                            Description = "Traditional Italian dessert with mascarpone, espresso and cocoa.",
+                            GramsSmall = 180m,
+                            Name = "Tiramisu",
+                            PriceSmall = 5.50m,
+                            isDeleted = false
+                        });
                 });
 
             modelBuilder.Entity("PizzariaFalia.Data.Models.Order", b =>
@@ -311,9 +430,6 @@ namespace PizzariaFalia.Data.Migrations
 
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
-
-                    b.Property<bool>("IsPickup")
-                        .HasColumnType("bit");
 
                     b.Property<int>("Status")
                         .HasColumnType("int");
