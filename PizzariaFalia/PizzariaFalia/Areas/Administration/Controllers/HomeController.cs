@@ -1,25 +1,25 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using PizzariaFalia.Services.Core.Contracts;
 using PizzariaFalia.ViewModels;
 
-namespace PizzariaFalia.Web.Controllers
+namespace PizzariaFalia.Web.Areas.Administration.Controllers
 {
     [Authorize(Roles = "Admin")]
-    public class AdminMenuController : Controller
+    [Area("Administration")]
+    public class HomeController : Controller
     {
         private readonly IAdminMenuChangeService adminService;
         private readonly IMenuService menuService;
-        public AdminMenuController(IAdminMenuChangeService adminService, IMenuService menuService)
+        public HomeController(IAdminMenuChangeService adminService, IMenuService menuService)
         {
             this.adminService = adminService;
             this.menuService = menuService;
         }
         public IActionResult Index()
         {
-            return RedirectToAction("Dashboard");
+            return RedirectToAction(nameof(Dashboard), "Home", new { area = "Administration" });
         }
 
         public IActionResult Dashboard()
@@ -83,7 +83,7 @@ namespace PizzariaFalia.Web.Controllers
         }
 
 
-        public async Task<IActionResult> DeleteDish([FromRoute]int id)
+        public async Task<IActionResult> DeleteDish([FromRoute] int id)
         {
             Console.WriteLine(id);
             await adminService.DeleteDishAsync(id);
@@ -131,6 +131,6 @@ namespace PizzariaFalia.Web.Controllers
 
             return RedirectToAction("Index", "Menu");
         }
-    }
 
+    }
 }
