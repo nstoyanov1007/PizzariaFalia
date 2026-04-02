@@ -1,4 +1,26 @@
-﻿<h2>Admin Menu Editor</h2>
+﻿<h2 class="mb-4">Admin Dashboard</h2>
 
-<a asp-area="Administration" asp-controller="Home" asp-action="CreateCategory" class="btn btn-primary">Add Category</a>
-<a asp-area="Administration" asp-controller="Home" asp-action="CreateDish" class="btn btn-success">Add Dish</a>
+<div class="row">
+
+    <div class="col-md-4">
+        <div class="card p-3 shadow-sm">
+            <h4>Menu Management</h4>
+            <a asp-area="Administration" asp-controller="Home" asp-action="CreateCategory" class="btn btn-primary mb-2">
+                Add Category
+            </a>
+            <a asp-area="Administration" asp-controller="Home" asp-action="CreateDish" class="btn btn-success">
+                Add Dish
+            </a>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card p-3 shadow-sm">
+            <h4>User Management</h4>
+            <a asp-area="Administration" asp-controller="User" asp-action="Index" class="btn btn-warning">
+                Manage Users
+            </a>
+        </div>
+    </div>
+
+</div>

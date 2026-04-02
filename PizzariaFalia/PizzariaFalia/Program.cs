@@ -24,6 +24,7 @@ builder.Services.AddScoped<ICartService, CartService>();
 builder.Services.AddScoped<IAdminMenuChangeService, AdminMenuChangeService>();
 builder.Services.AddScoped<IMenuService, MenuService>();
 builder.Services.AddScoped<IOrderService, OrderService>();
+builder.Services.AddScoped<IUserManagerService, UserManagerService>();
 
 var app = builder.Build();
 
