@@ -246,8 +246,7 @@
               "RelativeToolTip": "PizzariaFalia\\Areas\\Administration\\Views\\Home\\CreateDish.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-31T07:21:24.622Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T07:21:24.622Z"
             },
             {
               "$type": "Document",
@@ -259,8 +258,7 @@
               "RelativeToolTip": "PizzariaFalia\\Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-31T07:20:42.537Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T07:20:42.537Z"
             },
             {
               "$type": "Document",
@@ -272,8 +270,7 @@
               "RelativeToolTip": "PizzariaFalia\\Areas\\Administration\\Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-31T07:20:34.244Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T07:20:34.244Z"
             },
             {
               "$type": "Document",
@@ -285,8 +282,7 @@
               "RelativeToolTip": "PizzariaFalia\\Areas\\Administration\\Views\\Home\\Dashboard.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-31T07:16:26.628Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T07:16:26.628Z"
             },
             {
               "$type": "Document",
@@ -298,8 +294,7 @@
               "RelativeToolTip": "PizzariaFalia\\Areas\\Administration\\Controllers\\HomeController.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAgwCQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T07:07:03.772Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T07:07:03.772Z"
             },
             {
               "$type": "Document",
@@ -311,8 +306,7 @@
               "RelativeToolTip": "PizzariaFalia\\Program.cs",
               "ViewState": "AgIAADkAAAAAAAAAAAAAAEcAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-14T19:46:19.771Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-14T19:46:19.771Z"
             },
             {
               "$type": "Document",
@@ -322,7 +316,7 @@
               "RelativeDocumentMoniker": "PizzariaFalia\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "PizzariaFalia\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAYwFMAAABqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAcwFMAAABqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-02-16T14:28:54.364Z",
               "EditorCaption": ""
@@ -337,8 +331,7 @@
               "RelativeToolTip": "PizzariaFalia\\Areas\\Administration\\Views\\Home\\CreateCategory.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-31T07:16:23.829Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T07:16:23.829Z"
             },
             {
               "$type": "Document",
@@ -350,8 +343,7 @@
               "RelativeToolTip": "PizzariaFalia\\Areas\\Administration\\Views\\Home\\EditDish.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-31T07:17:32.176Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T07:17:32.176Z"
             },
             {
               "$type": "Document",
@@ -363,8 +355,7 @@
               "RelativeToolTip": "PizzariaFalia\\Areas\\Administration\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-31T07:25:41.067Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T07:25:41.067Z"
             },
             {
               "$type": "Document",
@@ -376,8 +367,7 @@
               "RelativeToolTip": "PizzariaFalia.Services.Core\\Contracts\\IOrderService.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAQwA0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-15T18:28:37.084Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-15T18:28:37.084Z"
             },
             {
               "$type": "Document",
@@ -389,8 +379,7 @@
               "RelativeToolTip": "PizzariaFalia\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAswAoAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-16T18:52:56.015Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-16T18:52:56.015Z"
             },
             {
               "$type": "Document",
@@ -402,8 +391,7 @@
               "RelativeToolTip": "PizzariaFalia.Data\\Migrations\\20260214204718_M1.cs",
               "ViewState": "AgIAAEYAAAAAAAAAAAAgwGQAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T14:16:05.402Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-17T14:16:05.402Z"
             },
             {
               "$type": "Document",
@@ -439,8 +427,7 @@
               "RelativeToolTip": "PizzariaFalia\\Controllers\\AdminRoleController.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-16T15:42:29.05Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-16T15:42:29.05Z"
             },
             {
               "$type": "Document",
