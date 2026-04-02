@@ -18,10 +18,13 @@ namespace PizzariaFalia.Web.Areas.Administration.Controllers
                 this.userService = userService;
             }
 
-            public async Task<IActionResult> Index()
+            public async Task<IActionResult> Index(int page = 1)
             {
-                var users = await userService.GetAllUsersAsync();
-                return View(users);
+                int pageSize = 10;
+
+                var model = await userService.GetUsersPagedAsync(page, pageSize);
+
+                return View(model);
             }
 
             public async Task<IActionResult> Details(Guid id)

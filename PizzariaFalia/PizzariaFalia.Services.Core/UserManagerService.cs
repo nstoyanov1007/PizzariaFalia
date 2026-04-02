@@ -89,5 +89,29 @@ namespace PizzariaFalia.Services.Core
 
             await _context.SaveChangesAsync();
         }
+
+        public async Task<PaginatedListViewModel<UserIndexViewModel>> GetUsersPagedAsync(int page, int pageSize)
+        {
+            var query = _context.Users.AsNoTracking();
+            var totalCount = await query.CountAsync();
+
+            var users = await query
+                .OrderBy(u => u.UserName)
+                .Skip((page - 1) * pageSize)
+                .Take(pageSize)
+                .Select(u => new UserIndexViewModel
+                {
+                    Id = Guid.Parse(u.Id),
+                    UserName = u.UserName ?? "No username"
+                })
+                .ToListAsync();
+
+            return new PaginatedListViewModel<UserIndexViewModel>
+            {
+                Items = users,
+                PageIndex = page,
+                TotalPages = (int)Math.Ceiling(totalCount / (double)pageSize)
+            };
+        }
     }
 }

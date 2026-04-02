@@ -11,8 +11,10 @@ namespace PizzariaFalia.Services.Core.Contracts
     {
         Task<IEnumerable<UserIndexViewModel>> GetAllUsersAsync();
         Task<UserDetailsViewModel> GetUserDetailsAsync(Guid id);
+        Task<PaginatedListViewModel<UserIndexViewModel>> GetUsersPagedAsync(int page, int pageSize);
 
         Task<UserEditViewModel> GetUserForEditAsync(Guid id);
         Task EditUserAsync(UserEditViewModel model);
+
     }
 }
