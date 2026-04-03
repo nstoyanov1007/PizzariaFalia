@@ -3,7 +3,7 @@
 <h2>Edit User</h2>
 
 <form asp-action="Edit" method="post" class="card p-4 shadow-sm">
-
+    <div asp-validation-summary="All" class="text-danger"></div>
     <input type="hidden" asp-for="Id" />
 
     <div class="mb-3">

@@ -46,7 +46,15 @@ namespace PizzariaFalia.Web.Areas.Administration.Controllers
                     return View(model);
                 }
 
-                await userService.EditUserAsync(model);
+                try
+                {
+                    await userService.EditUserAsync(model);
+                }
+                catch (Exception ex)
+                {
+                    ModelState.AddModelError(string.Empty, ex.Message);
+                    return View(model);
+                }
 
                 return RedirectToAction(nameof(Index));
             }
