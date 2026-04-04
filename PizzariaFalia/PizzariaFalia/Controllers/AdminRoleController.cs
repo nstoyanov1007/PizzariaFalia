@@ -1,11 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+using PizzariaFalia.Data.Models;
 
 namespace PizzariaFalia.Web.Controllers
 {
-    using Microsoft.AspNetCore.Identity;
-    using Microsoft.AspNetCore.Mvc;
-    using PizzariaFalia.Data.Models;
-
+    [Authorize]
     public class AdminRoleController : Controller
     {
         private readonly UserManager<ApplicationUser> userManager;

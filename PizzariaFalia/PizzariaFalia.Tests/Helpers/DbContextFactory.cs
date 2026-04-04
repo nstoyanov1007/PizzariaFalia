@@ -5,10 +5,6 @@ using PizzariaFalia.Data.Models;
 
 namespace PizzariaFalia.Tests.Helpers
 {
-    /// <summary>
-    /// Provides an in-memory ApplicationDbContext with an isolated database per call.
-    /// Each test should call Create() to get a fresh, empty context.
-    /// </summary>
     public static class DbContextFactory
     {
         public static ApplicationDbContext Create(string? dbName = null)
@@ -21,8 +17,6 @@ namespace PizzariaFalia.Tests.Helpers
             context.Database.EnsureCreated();
             return context;
         }
-
-        // ── Seed helpers ─────────────────────────────────────────────────────
 
         public static ApplicationUser SeedUser(
             ApplicationDbContext context,
