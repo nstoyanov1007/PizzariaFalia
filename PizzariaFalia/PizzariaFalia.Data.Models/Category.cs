@@ -1,10 +1,5 @@
 ﻿using PizzariaFalia.Common;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PizzariaFalia.Data.Models
 {
@@ -20,7 +15,7 @@ namespace PizzariaFalia.Data.Models
         //Fully for customisation purposes and to make category visualiation easier
         //E.g. - Category (Pizza), Subcategory(Name = Pizza with meat products, DisplayName = with Meat Products)
         [MaxLength(ValidationConstants.CategoryNameMaxLength)]
-        public string? DisplayName { get; set; } 
+        public string? DisplayName { get; set; }
 
         //If null - Master category
         //If not null - subcategory of another category
@@ -29,7 +24,7 @@ namespace PizzariaFalia.Data.Models
 
         public bool isDeleted { get; set; }
 
-        public virtual ICollection<Dish> Dishes { get; set; } 
+        public virtual ICollection<Dish> Dishes { get; set; }
             = new HashSet<Dish>();
         public virtual ICollection<Category> SubCategories { get; set; }
             = new HashSet<Category>();

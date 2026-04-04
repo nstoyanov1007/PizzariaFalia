@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using PizzariaFalia.Data.Models.Enums;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using PizzariaFalia.Data.Models.Enums;
 
 namespace PizzariaFalia.Data.Models
 {

@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace PizzariaFalia.Data.Models
 {
@@ -16,7 +11,7 @@ namespace PizzariaFalia.Data.Models
         public int DishId { get; set; }
         public virtual Dish Dish { get; set; } = null!;
 
-        public bool IsDishBig { get;set; } //Determines the size of the dish (Big, Small)
+        public bool IsDishBig { get; set; } //Determines the size of the dish (Big, Small)
 
         [Required]
         public int OrderId { get; set; }

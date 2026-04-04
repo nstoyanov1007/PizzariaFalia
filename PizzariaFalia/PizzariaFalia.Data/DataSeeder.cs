@@ -1,17 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text.Json;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using PizzariaFalia.Data.Models;
 
 namespace PizzariaFalia.Data
 {
-    using System.Text.Json;
-    using Microsoft.AspNetCore.Identity;
-    using Microsoft.EntityFrameworkCore;
-    using PizzariaFalia.Data;
-    using PizzariaFalia.Data.Models;
-
     public class DataSeeder
     {
         private readonly ApplicationDbContext _context;

@@ -4,12 +4,6 @@ using PizzariaFalia.Data.Models;
 using PizzariaFalia.Data.Models.Enums;
 using PizzariaFalia.Services.Core.Contracts;
 using PizzariaFalia.ViewModels;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PizzariaFalia.Services.Core
 {
@@ -99,7 +93,7 @@ namespace PizzariaFalia.Services.Core
                 .Where(o => o.UserId == userId && o.Status == Status.Pending)
                 .FirstOrDefaultAsync();
 
-            if(order != null)
+            if (order != null)
             {
                 return await _context.OrderItems
                     .Where(oi => oi.OrderId == order.Id)

@@ -3,11 +3,6 @@ using PizzariaFalia.Data;
 using PizzariaFalia.Data.Models;
 using PizzariaFalia.Services.Core.Contracts;
 using PizzariaFalia.ViewModels;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PizzariaFalia.Services.Core
 {
@@ -97,7 +92,7 @@ namespace PizzariaFalia.Services.Core
             Category categoryContext;
             try
             {
-               categoryContext = await _context.Categories.FirstAsync(c => c.Id == category.Id);
+                categoryContext = await _context.Categories.FirstAsync(c => c.Id == category.Id);
             }
             catch
             {

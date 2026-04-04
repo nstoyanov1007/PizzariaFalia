@@ -1,10 +1,4 @@
-﻿using PizzariaFalia.Data.Models;
-using PizzariaFalia.ViewModels;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using PizzariaFalia.ViewModels;
 
 namespace PizzariaFalia.Services.Core.Contracts
 {
