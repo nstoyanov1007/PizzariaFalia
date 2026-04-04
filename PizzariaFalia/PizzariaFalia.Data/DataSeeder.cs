@@ -82,7 +82,8 @@ namespace PizzariaFalia.Data
                 {
                     UserName = userData.Email,
                     Email = userData.Email,
-                    Address = userData.Address
+                    Address = userData.Address,
+                    EmailConfirmed = true
                 };
 
                 await _userManager.CreateAsync(user, userData.Password);
