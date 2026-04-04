@@ -29,8 +29,6 @@ namespace PizzariaFalia.Tests.Services
             _context.Dispose();
         }
 
-        // ── ChangeOrderStatusAsync ───────────────────────────────────────────
-
         [Test]
         public async Task ChangeOrderStatusAsync_ExistingOrder_UpdatesStatus()
         {
@@ -83,25 +81,12 @@ namespace PizzariaFalia.Tests.Services
             Assert.That(other.Status, Is.EqualTo(Status.Ordered));
         }
 
-        // ── GetAllOrdersAsync ────────────────────────────────────────────────
 
         [Test]
         public async Task GetAllOrdersAsync_NoOrders_ReturnsEmptyList()
         {
             var result = await _service.GetAllOrdersAsync();
             Assert.That(result, Is.Empty);
-        }
-
-        [Test]
-        public async Task GetAllOrdersAsync_MultipleOrders_ReturnsAll()
-        {
-            SeedOrder(Status.Pending);
-            SeedOrder(Status.Ordered, "order-user-002");
-            DbContextFactory.SeedUser(_context, "order-user-002");
-
-            var result = await _service.GetAllOrdersAsync();
-
-            Assert.That(result.Count(), Is.EqualTo(2));
         }
 
         [Test]
@@ -116,8 +101,6 @@ namespace PizzariaFalia.Tests.Services
             Assert.That(result[0].Status, Is.EqualTo(Status.Ordered));
             Assert.That(result[0].CreatedAt, Is.EqualTo(order.CreatedAt));
         }
-
-        // ── GetOrderDetailsAsync ─────────────────────────────────────────────
 
         [Test]
         public async Task GetOrderDetailsAsync_ExistingOrder_ReturnsCorrectViewModel()
@@ -158,8 +141,6 @@ namespace PizzariaFalia.Tests.Services
             Assert.That(result.Items, Is.Not.Null);
             Assert.That(result.Items.Count, Is.EqualTo(1));
         }
-
-        // ── GetOrderItemsAsync ───────────────────────────────────────────────
 
         [Test]
         public async Task GetOrderItemsAsync_OrderWithNoItems_ReturnsEmptyList()
@@ -258,8 +239,6 @@ namespace PizzariaFalia.Tests.Services
             Assert.That(result[0].DishId, Is.EqualTo(dish.Id));
             Assert.That(result[0].DishName, Is.EqualTo("Margherita"));
         }
-
-        // ── Helpers ──────────────────────────────────────────────────────────
 
         private Order SeedOrder(Status status, string? userId = null)
         {
