@@ -92,6 +92,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/VisualStudio/.ASPNet/AspNetProject/PizzariaFalia/PizzariaFalia/PizzariaFalia/Views/Home/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/VisualStudio/.ASPNet/AspNetProject/PizzariaFalia/PizzariaFalia/PizzariaFalia/Views/Home/Error_403.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFcnJvcl80MDMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/VisualStudio/.ASPNet/AspNetProject/PizzariaFalia/PizzariaFalia/PizzariaFalia/Views/Home/Error_404.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFcnJvcl80MDQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/VisualStudio/.ASPNet/AspNetProject/PizzariaFalia/PizzariaFalia/PizzariaFalia/Views/Home/Error_500.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFcnJvcl81MDAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/VisualStudio/.ASPNet/AspNetProject/PizzariaFalia/PizzariaFalia/PizzariaFalia/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

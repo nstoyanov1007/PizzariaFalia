@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Error";
+}
+
+<h1>Something went wrong</h1>
+
+<p>@ViewBag.ErrorMessage</p>
+
+@if (ViewBag.Path != null)
+{
+    <p><strong>Path:</strong> @ViewBag.Path</p>
+}
