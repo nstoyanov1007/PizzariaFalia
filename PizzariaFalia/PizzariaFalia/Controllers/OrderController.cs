@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using PizzariaFalia.Data.Models.Enums;
 using PizzariaFalia.Services.Core.Contracts;
+using System.Security.Claims;
 
 namespace PizzariaFalia.Web.Controllers
 {
@@ -17,7 +18,7 @@ namespace PizzariaFalia.Web.Controllers
 
         public async Task<IActionResult> Index()
         {
-            return View(await orderService.GetAllOrdersAsync());
+            return View(await orderService.GetAllOrdersAsync(User.FindFirstValue(ClaimTypes.NameIdentifier)));
         }
         public async Task<IActionResult> Details(int id)
         {

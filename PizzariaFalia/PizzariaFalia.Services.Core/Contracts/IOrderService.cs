@@ -8,7 +8,7 @@ namespace PizzariaFalia.Services.Core.Contracts
         Task ChangeOrderStatusAsync(int orderId, Status status);
 
         Task<IEnumerable<OrderItemViewModel>> GetOrderItemsAsync(int orderId);
-        Task<IEnumerable<OrderIndexViewModel>> GetAllOrdersAsync();
+        Task<IEnumerable<OrderIndexViewModel>> GetAllOrdersAsync(string? userId = null);
         Task<OrderDetailsViewModel> GetOrderDetailsAsync(int orderId);
     }
 }

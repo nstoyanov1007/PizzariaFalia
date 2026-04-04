@@ -10,7 +10,6 @@ namespace PizzariaFalia.Services.Core
     public class OrderService : IOrderService
     {
         private readonly ApplicationDbContext _context;
-
         public OrderService(ApplicationDbContext context)
         {
             _context = context;
@@ -63,16 +62,31 @@ namespace PizzariaFalia.Services.Core
                 }).ToListAsync();
         }
 
-        public async Task<IEnumerable<OrderIndexViewModel>> GetAllOrdersAsync()
+        public async Task<IEnumerable<OrderIndexViewModel>> GetAllOrdersAsync(string? userId = null)
         {
-            return await _context.Orders
-                .Select(o => new OrderIndexViewModel()
-                {
-                    Status = o.Status,
-                    CreatedAt = o.CreatedAt,
-                    Id = o.Id,
-                    UserId = o.UserId,
-                }).ToListAsync();
+            if(userId != null)
+            {
+                return await _context.Orders
+                    .Where(o => o.UserId == userId)
+                    .Select(o => new OrderIndexViewModel()
+                    {
+                        Status = o.Status,
+                        CreatedAt = o.CreatedAt,
+                        Id = o.Id,
+                        UserId = o.UserId,
+                    }).ToListAsync();
+            }
+            else
+            {
+                return await _context.Orders
+                    .Select(o => new OrderIndexViewModel()
+                    {
+                        Status = o.Status,
+                        CreatedAt = o.CreatedAt,
+                        Id = o.Id,
+                        UserId = o.UserId,
+                    }).ToListAsync();
+            }
         }
     }
 }
