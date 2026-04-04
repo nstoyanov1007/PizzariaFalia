@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9EA8B43E-D0E5-47A7-9324-137A072AF234}|PizzariaFalia\\PizzariaFalia.Web.csproj|e:\\visualstudio\\.aspnet\\aspnetproject\\pizzariafalia\\pizzariafalia\\pizzariafalia\\seeddata\\users.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9EA8B43E-D0E5-47A7-9324-137A072AF234}|PizzariaFalia\\PizzariaFalia.Web.csproj|solutionrelative:pizzariafalia\\seeddata\\users.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EA8B43E-D0E5-47A7-9324-137A072AF234}|PizzariaFalia\\PizzariaFalia.Web.csproj|e:\\visualstudio\\.aspnet\\aspnetproject\\pizzariafalia\\pizzariafalia\\pizzariafalia\\seeddata\\dishes.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9EA8B43E-D0E5-47A7-9324-137A072AF234}|PizzariaFalia\\PizzariaFalia.Web.csproj|solutionrelative:pizzariafalia\\seeddata\\dishes.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9EA8B43E-D0E5-47A7-9324-137A072AF234}|PizzariaFalia\\PizzariaFalia.Web.csproj|e:\\visualstudio\\.aspnet\\aspnetproject\\pizzariafalia\\pizzariafalia\\pizzariafalia\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9EA8B43E-D0E5-47A7-9324-137A072AF234}|PizzariaFalia\\PizzariaFalia.Web.csproj|solutionrelative:pizzariafalia\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -67,10 +75,6 @@
       "RelativeMoniker": "D:0:0:{9EA8B43E-D0E5-47A7-9324-137A072AF234}|PizzariaFalia\\PizzariaFalia.Web.csproj|solutionrelative:pizzariafalia\\views\\shared\\_categorytree.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EA8B43E-D0E5-47A7-9324-137A072AF234}|PizzariaFalia\\PizzariaFalia.Web.csproj|e:\\visualstudio\\.aspnet\\aspnetproject\\pizzariafalia\\pizzariafalia\\pizzariafalia\\seeddata\\users.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9EA8B43E-D0E5-47A7-9324-137A072AF234}|PizzariaFalia\\PizzariaFalia.Web.csproj|solutionrelative:pizzariafalia\\seeddata\\users.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Data\\Migrations\\20260404153957_Initial2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PizzariaFalia.Data\\Migrations\\20260404153957_Initial2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -81,10 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{77869B2A-A543-4BD9-96AA-93876441ED58}|PizzariaFalia.Data\\PizzariaFalia.Data.csproj|e:\\visualstudio\\.aspnet\\aspnetproject\\pizzariafalia\\pizzariafalia\\pizzariafalia.data\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77869B2A-A543-4BD9-96AA-93876441ED58}|PizzariaFalia.Data\\PizzariaFalia.Data.csproj|solutionrelative:pizzariafalia.data\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EA8B43E-D0E5-47A7-9324-137A072AF234}|PizzariaFalia\\PizzariaFalia.Web.csproj|e:\\visualstudio\\.aspnet\\aspnetproject\\pizzariafalia\\pizzariafalia\\pizzariafalia\\seeddata\\dishes.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9EA8B43E-D0E5-47A7-9324-137A072AF234}|PizzariaFalia\\PizzariaFalia.Web.csproj|solutionrelative:pizzariafalia\\seeddata\\dishes.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9EA8B43E-D0E5-47A7-9324-137A072AF234}|PizzariaFalia\\PizzariaFalia.Web.csproj|e:\\visualstudio\\.aspnet\\aspnetproject\\pizzariafalia\\pizzariafalia\\pizzariafalia\\areas\\administration\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -322,24 +322,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "UserManagerServiceTests.cs",
-              "DocumentMoniker": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Tests\\Services\\UserManagerServiceTests.cs",
-              "RelativeDocumentMoniker": "PizzariaFalia.Tests\\Services\\UserManagerServiceTests.cs",
-              "ToolTip": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Tests\\Services\\UserManagerServiceTests.cs",
-              "RelativeToolTip": "PizzariaFalia.Tests\\Services\\UserManagerServiceTests.cs",
-              "ViewState": "AgIAAA8BAAAAAAAAAAAAAA8BAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-04T16:22:32.562Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "OrderServiceTests.cs",
               "DocumentMoniker": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Tests\\Services\\OrderServiceTests.cs",
               "RelativeDocumentMoniker": "PizzariaFalia.Tests\\Services\\OrderServiceTests.cs",
@@ -353,19 +340,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "MenuServiceTests.cs",
-              "DocumentMoniker": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Tests\\Services\\MenuServiceTests.cs",
-              "RelativeDocumentMoniker": "PizzariaFalia.Tests\\Services\\MenuServiceTests.cs",
-              "ToolTip": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Tests\\Services\\MenuServiceTests.cs",
-              "RelativeToolTip": "PizzariaFalia.Tests\\Services\\MenuServiceTests.cs",
-              "ViewState": "AgIAAOkAAAAAAAAAAAAowMsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-04T16:22:10.539Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "HomeController.cs",
               "DocumentMoniker": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia\\Areas\\Administration\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "PizzariaFalia\\Areas\\Administration\\Controllers\\HomeController.cs",
@@ -378,7 +352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "OrderController.cs",
               "DocumentMoniker": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "PizzariaFalia\\Controllers\\OrderController.cs",
@@ -391,7 +365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "IOrderService.cs",
               "DocumentMoniker": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Services.Core\\Contracts\\IOrderService.cs",
               "RelativeDocumentMoniker": "PizzariaFalia.Services.Core\\Contracts\\IOrderService.cs",
@@ -404,7 +378,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "OrderService.cs",
               "DocumentMoniker": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Services.Core\\OrderService.cs",
               "RelativeDocumentMoniker": "PizzariaFalia.Services.Core\\OrderService.cs",
@@ -417,124 +391,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AdminMenuChangeServiceTests.cs",
-              "DocumentMoniker": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Tests\\Services\\AdminMenuChangeServiceTests.cs",
-              "RelativeDocumentMoniker": "PizzariaFalia.Tests\\Services\\AdminMenuChangeServiceTests.cs",
-              "ToolTip": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Tests\\Services\\AdminMenuChangeServiceTests.cs",
-              "RelativeToolTip": "PizzariaFalia.Tests\\Services\\AdminMenuChangeServiceTests.cs",
-              "ViewState": "AgIAAAgBAAAAAAAAAAA1wPMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-04T16:21:42.21Z",
+              "DocumentIndex": 1,
+              "Title": "dishes.json",
+              "DocumentMoniker": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia\\SeedData\\dishes.json",
+              "RelativeDocumentMoniker": "PizzariaFalia\\SeedData\\dishes.json",
+              "ToolTip": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia\\SeedData\\dishes.json",
+              "RelativeToolTip": "PizzariaFalia\\SeedData\\dishes.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-04T12:00:15.673Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "_DishCard.cshtml",
-              "DocumentMoniker": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia\\Views\\Shared\\_DishCard.cshtml",
-              "RelativeDocumentMoniker": "PizzariaFalia\\Views\\Shared\\_DishCard.cshtml",
-              "ToolTip": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia\\Views\\Shared\\_DishCard.cshtml",
-              "RelativeToolTip": "PizzariaFalia\\Views\\Shared\\_DishCard.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-16T18:54:26.93Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia\\Views\\Menu\\Details.cshtml",
-              "RelativeDocumentMoniker": "PizzariaFalia\\Views\\Menu\\Details.cshtml",
-              "ToolTip": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia\\Views\\Menu\\Details.cshtml",
-              "RelativeToolTip": "PizzariaFalia\\Views\\Menu\\Details.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAcwBwAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-16T14:22:15.399Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AdminMenuChangeService.cs",
-              "DocumentMoniker": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Services.Core\\AdminMenuChangeService.cs",
-              "RelativeDocumentMoniker": "PizzariaFalia.Services.Core\\AdminMenuChangeService.cs",
-              "ToolTip": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Services.Core\\AdminMenuChangeService.cs",
-              "RelativeToolTip": "PizzariaFalia.Services.Core\\AdminMenuChangeService.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAqwEsAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-15T18:50:33.521Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IAdminMenuChangeService.cs",
-              "DocumentMoniker": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Services.Core\\Contracts\\IAdminMenuChangeService.cs",
-              "RelativeDocumentMoniker": "PizzariaFalia.Services.Core\\Contracts\\IAdminMenuChangeService.cs",
-              "ToolTip": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Services.Core\\Contracts\\IAdminMenuChangeService.cs",
-              "RelativeToolTip": "PizzariaFalia.Services.Core\\Contracts\\IAdminMenuChangeService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAMwA4AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-15T18:29:56.217Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CartServiceTests.cs",
-              "DocumentMoniker": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Tests\\Services\\CartServiceTests.cs",
-              "RelativeDocumentMoniker": "PizzariaFalia.Tests\\Services\\CartServiceTests.cs",
-              "ToolTip": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Tests\\Services\\CartServiceTests.cs",
-              "RelativeToolTip": "PizzariaFalia.Tests\\Services\\CartServiceTests.cs",
-              "ViewState": "AgIAAAsBAAAAAAAAAAAcwDcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-04T11:45:23.421Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "MenuService.cs",
-              "DocumentMoniker": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Services.Core\\MenuService.cs",
-              "RelativeDocumentMoniker": "PizzariaFalia.Services.Core\\MenuService.cs",
-              "ToolTip": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Services.Core\\MenuService.cs",
-              "RelativeToolTip": "PizzariaFalia.Services.Core\\MenuService.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAewBwAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-15T17:37:58.595Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CategoryTreeViewModel.cs",
-              "DocumentMoniker": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.ViewModels\\CategoryTreeViewModel.cs",
-              "RelativeDocumentMoniker": "PizzariaFalia.ViewModels\\CategoryTreeViewModel.cs",
-              "ToolTip": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.ViewModels\\CategoryTreeViewModel.cs",
-              "RelativeToolTip": "PizzariaFalia.ViewModels\\CategoryTreeViewModel.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-15T19:32:39.157Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "_CategoryTree.cshtml",
-              "DocumentMoniker": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia\\Views\\Shared\\_CategoryTree.cshtml",
-              "RelativeDocumentMoniker": "PizzariaFalia\\Views\\Shared\\_CategoryTree.cshtml",
-              "ToolTip": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia\\Views\\Shared\\_CategoryTree.cshtml",
-              "RelativeToolTip": "PizzariaFalia\\Views\\Shared\\_CategoryTree.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAACvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-16T18:54:24.765Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 0,
               "Title": "users.json",
               "DocumentMoniker": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia\\SeedData\\users.json",
               "RelativeDocumentMoniker": "PizzariaFalia\\SeedData\\users.json",
@@ -547,7 +417,150 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserManagerServiceTests.cs",
+              "DocumentMoniker": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Tests\\Services\\UserManagerServiceTests.cs",
+              "RelativeDocumentMoniker": "PizzariaFalia.Tests\\Services\\UserManagerServiceTests.cs",
+              "ToolTip": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Tests\\Services\\UserManagerServiceTests.cs",
+              "RelativeToolTip": "PizzariaFalia.Tests\\Services\\UserManagerServiceTests.cs",
+              "ViewState": "AgIAAA8BAAAAAAAAAAAAAA8BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T16:22:32.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MenuServiceTests.cs",
+              "DocumentMoniker": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Tests\\Services\\MenuServiceTests.cs",
+              "RelativeDocumentMoniker": "PizzariaFalia.Tests\\Services\\MenuServiceTests.cs",
+              "ToolTip": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Tests\\Services\\MenuServiceTests.cs",
+              "RelativeToolTip": "PizzariaFalia.Tests\\Services\\MenuServiceTests.cs",
+              "ViewState": "AgIAAOkAAAAAAAAAAAAowMsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T16:22:10.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AdminMenuChangeServiceTests.cs",
+              "DocumentMoniker": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Tests\\Services\\AdminMenuChangeServiceTests.cs",
+              "RelativeDocumentMoniker": "PizzariaFalia.Tests\\Services\\AdminMenuChangeServiceTests.cs",
+              "ToolTip": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Tests\\Services\\AdminMenuChangeServiceTests.cs",
+              "RelativeToolTip": "PizzariaFalia.Tests\\Services\\AdminMenuChangeServiceTests.cs",
+              "ViewState": "AgIAAAgBAAAAAAAAAAA1wPMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T16:21:42.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_DishCard.cshtml",
+              "DocumentMoniker": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia\\Views\\Shared\\_DishCard.cshtml",
+              "RelativeDocumentMoniker": "PizzariaFalia\\Views\\Shared\\_DishCard.cshtml",
+              "ToolTip": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia\\Views\\Shared\\_DishCard.cshtml",
+              "RelativeToolTip": "PizzariaFalia\\Views\\Shared\\_DishCard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-16T18:54:26.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia\\Views\\Menu\\Details.cshtml",
+              "RelativeDocumentMoniker": "PizzariaFalia\\Views\\Menu\\Details.cshtml",
+              "ToolTip": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia\\Views\\Menu\\Details.cshtml",
+              "RelativeToolTip": "PizzariaFalia\\Views\\Menu\\Details.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAcwBwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-16T14:22:15.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AdminMenuChangeService.cs",
+              "DocumentMoniker": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Services.Core\\AdminMenuChangeService.cs",
+              "RelativeDocumentMoniker": "PizzariaFalia.Services.Core\\AdminMenuChangeService.cs",
+              "ToolTip": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Services.Core\\AdminMenuChangeService.cs",
+              "RelativeToolTip": "PizzariaFalia.Services.Core\\AdminMenuChangeService.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAqwEsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T18:50:33.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IAdminMenuChangeService.cs",
+              "DocumentMoniker": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Services.Core\\Contracts\\IAdminMenuChangeService.cs",
+              "RelativeDocumentMoniker": "PizzariaFalia.Services.Core\\Contracts\\IAdminMenuChangeService.cs",
+              "ToolTip": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Services.Core\\Contracts\\IAdminMenuChangeService.cs",
+              "RelativeToolTip": "PizzariaFalia.Services.Core\\Contracts\\IAdminMenuChangeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAMwA4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T18:29:56.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CartServiceTests.cs",
+              "DocumentMoniker": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Tests\\Services\\CartServiceTests.cs",
+              "RelativeDocumentMoniker": "PizzariaFalia.Tests\\Services\\CartServiceTests.cs",
+              "ToolTip": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Tests\\Services\\CartServiceTests.cs",
+              "RelativeToolTip": "PizzariaFalia.Tests\\Services\\CartServiceTests.cs",
+              "ViewState": "AgIAAAsBAAAAAAAAAAAcwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T11:45:23.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MenuService.cs",
+              "DocumentMoniker": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Services.Core\\MenuService.cs",
+              "RelativeDocumentMoniker": "PizzariaFalia.Services.Core\\MenuService.cs",
+              "ToolTip": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Services.Core\\MenuService.cs",
+              "RelativeToolTip": "PizzariaFalia.Services.Core\\MenuService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAewBwAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T17:37:58.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CategoryTreeViewModel.cs",
+              "DocumentMoniker": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.ViewModels\\CategoryTreeViewModel.cs",
+              "RelativeDocumentMoniker": "PizzariaFalia.ViewModels\\CategoryTreeViewModel.cs",
+              "ToolTip": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.ViewModels\\CategoryTreeViewModel.cs",
+              "RelativeToolTip": "PizzariaFalia.ViewModels\\CategoryTreeViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T19:32:39.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 17,
+              "Title": "_CategoryTree.cshtml",
+              "DocumentMoniker": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia\\Views\\Shared\\_CategoryTree.cshtml",
+              "RelativeDocumentMoniker": "PizzariaFalia\\Views\\Shared\\_CategoryTree.cshtml",
+              "ToolTip": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia\\Views\\Shared\\_CategoryTree.cshtml",
+              "RelativeToolTip": "PizzariaFalia\\Views\\Shared\\_CategoryTree.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAACvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-16T18:54:24.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "20260404153957_Initial2.cs",
               "DocumentMoniker": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Data\\Migrations\\20260404153957_Initial2.cs",
               "RelativeDocumentMoniker": "PizzariaFalia.Data\\Migrations\\20260404153957_Initial2.cs",
@@ -560,7 +573,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "20260404082410_Initial.cs",
               "DocumentMoniker": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Data\\Migrations\\20260404082410_Initial.cs",
               "RelativeDocumentMoniker": "PizzariaFalia.Data\\Migrations\\20260404082410_Initial.cs",
@@ -569,19 +582,6 @@
               "ViewState": "AgIAACcBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-04T15:39:09.866Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "dishes.json",
-              "DocumentMoniker": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia\\SeedData\\dishes.json",
-              "RelativeDocumentMoniker": "PizzariaFalia\\SeedData\\dishes.json",
-              "ToolTip": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia\\SeedData\\dishes.json",
-              "RelativeToolTip": "PizzariaFalia\\SeedData\\dishes.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-04T12:00:15.673Z",
               "EditorCaption": ""
             },
             {
@@ -625,7 +625,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "DataSeeder.cs",
               "DocumentMoniker": "E:\\VisualStudio\\.ASPNet\\AspNetProject\\PizzariaFalia\\PizzariaFalia\\PizzariaFalia.Data\\DataSeeder.cs",
               "RelativeDocumentMoniker": "PizzariaFalia.Data\\DataSeeder.cs",
