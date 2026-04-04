@@ -83,12 +83,12 @@ namespace PizzariaFalia.Web.Areas.Administration.Controllers
         }
 
 
-        public async Task<IActionResult> DeleteDish([FromRoute] int id)
+        public async Task<IActionResult> DeleteDish(int dishId)
         {
-            Console.WriteLine(id);
-            await adminService.DeleteDishAsync(id);
+            Console.WriteLine(dishId);
+            await adminService.DeleteDishAsync(dishId);
 
-            return RedirectToAction("index", "home");
+            return RedirectToAction("Index", "Home", new { area = "" });
         }
         public async Task<IActionResult> DeleteCategory(int dishId)
         {

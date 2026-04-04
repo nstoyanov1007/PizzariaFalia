@@ -21,12 +21,12 @@ namespace PizzariaFalia.Services.Core
                 .Select(c => new CategoryTreeViewModel
                 {
                     Id = c.Id,
-                    Name = c.Name,
+                    Name = c.DisplayName ?? c.Name,
                     Children = c.SubCategories.Where(c2 => !c2.isDeleted)
                         .Select(c2 => new CategoryTreeViewModel
                         {
                             Id = c2.Id,
-                            Name = c2.Name,
+                            Name = c2.DisplayName ?? c2.Name,
                         }).ToList()
                 }).ToListAsync();
         }

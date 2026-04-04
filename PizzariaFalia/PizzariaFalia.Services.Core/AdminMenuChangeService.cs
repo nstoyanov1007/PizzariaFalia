@@ -75,16 +75,14 @@ namespace PizzariaFalia.Services.Core
 
         public async Task DeleteDishAsync(int dishid)
         {
-            try
-            {
-                _context.Dishes.FirstAsync(d => d.Id == dishid).Result.isDeleted = true;
-
-                await _context.SaveChangesAsync();
-            }
-            catch
-            {
+            Dish? dish = await _context.Dishes.FirstOrDefaultAsync(d => d.Id == dishid);
+                
+            if(dish == null)
                 throw new InvalidOperationException("Dish does not exist");
-            }
+
+            dish.isDeleted = true;
+
+            await _context.SaveChangesAsync();
         }
 
         public async Task EditCategoryAsync(CategoryFormViewModel category)

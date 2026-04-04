@@ -11,8 +11,12 @@
             <a asp-controller="Menu" asp-action="Details" asp-route-id="@Model.Id" class="btn btn-outline-dark btn-sm flex-fill">Details</a>
             @if (User.IsInRole("Admin"))
             {
-                <a asp-controller="AdminMenu" asp-action="EditDish" asp-route-id="@Model.Id" class="btn btn-warning btn-sm flex-fill">Edit</a>
-                <a asp-controller="AdminMenu" asp-action="DeleteDish" asp-route-id="@Model.Id" class="btn btn-danger btn-sm flex-fill">Delete</a>
+                <a asp-area="Administration" asp-controller="Home" asp-action="EditDish" asp-route-id="@Model.Id" class="btn btn-warning btn-sm flex-fill">Edit</a>
+
+                <form asp-area="Administration" asp-controller="Home" asp-action="DeleteDish" method="post">
+                    <input type="hidden" name="dishId" value="@Model.Id" />
+                    <button class="btn btn-danger px-4">Delete</button>
+                </form>
 }
         </div>
     </div>
