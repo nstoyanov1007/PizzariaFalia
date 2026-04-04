@@ -25,8 +25,6 @@ namespace PizzariaFalia.Tests.Services
             _context.Dispose();
         }
 
-        // ── GetAllUsersAsync ─────────────────────────────────────────────────
-
         [Test]
         public async Task GetAllUsersAsync_NoUsers_ReturnsEmptyList()
         {
@@ -63,7 +61,7 @@ namespace PizzariaFalia.Tests.Services
             // Identity stores empty string for username in some edge cases; test null fallback
             var id = Guid.NewGuid().ToString();
             var user = DbContextFactory.SeedUser(_context, id);
-            // Manually blank the username
+
             user.UserName = null;
             _context.SaveChanges();
 
@@ -71,8 +69,6 @@ namespace PizzariaFalia.Tests.Services
 
             Assert.That(result[0].UserName, Is.EqualTo("null"));
         }
-
-        // ── GetUserDetailsAsync ──────────────────────────────────────────────
 
         [Test]
         public async Task GetUserDetailsAsync_ExistingUser_ReturnsCorrectDetails()
@@ -110,8 +106,6 @@ namespace PizzariaFalia.Tests.Services
             Assert.That(result.EmailConfirmed, Is.False);
         }
 
-        // ── GetUserForEditAsync ──────────────────────────────────────────────
-
         [Test]
         public async Task GetUserForEditAsync_ExistingUser_ReturnsEditViewModel()
         {
@@ -146,8 +140,6 @@ namespace PizzariaFalia.Tests.Services
 
             Assert.That(result.EmailConfirmed, Is.False);
         }
-
-        // ── EditUserAsync ────────────────────────────────────────────────────
 
         [Test]
         public async Task EditUserAsync_ValidModel_UpdatesUserInDatabase()
@@ -246,8 +238,6 @@ namespace PizzariaFalia.Tests.Services
             Assert.That(user.Address, Is.EqualTo("no address"));
         }
 
-        // ── GetUsersPagedAsync ───────────────────────────────────────────────
-
         [Test]
         public async Task GetUsersPagedAsync_FirstPage_ReturnsCorrectSlice()
         {
@@ -279,7 +269,6 @@ namespace PizzariaFalia.Tests.Services
 
             var result = await _service.GetUsersPagedAsync(1, 3);
 
-            // 7 users, page size 3 → ceil(7/3) = 3 pages
             Assert.That(result.TotalPages, Is.EqualTo(3));
         }
 

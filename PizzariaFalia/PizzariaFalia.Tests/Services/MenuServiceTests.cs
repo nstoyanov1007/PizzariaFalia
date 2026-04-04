@@ -25,8 +25,6 @@ namespace PizzariaFalia.Tests.Services
             _context.Dispose();
         }
 
-        // ── GetAllCategoriesAsync ────────────────────────────────────────────
-
         [Test]
         public async Task GetAllCategoriesAsync_NoCategories_ReturnsEmptyList()
         {
@@ -95,8 +93,6 @@ namespace PizzariaFalia.Tests.Services
             Assert.That(result.Count(), Is.EqualTo(1));
         }
 
-        // ── GetAllDishesIndexAsync ───────────────────────────────────────────
-
         [Test]
         public async Task GetAllDishesIndexAsync_NoDishes_ReturnsEmptyList()
         {
@@ -149,8 +145,6 @@ namespace PizzariaFalia.Tests.Services
             Assert.That(result[0].PriceBig, Is.EqualTo(13.99m));
             Assert.That(result[0].GramsBig, Is.EqualTo(550));
         }
-
-        // ── GetDishesIndexByCategoryAsync ────────────────────────────────────
 
         [Test]
         public async Task GetDishesIndexByCategoryAsync_CategoryWithDishes_ReturnsThem()
@@ -208,9 +202,6 @@ namespace PizzariaFalia.Tests.Services
             Assert.That(result.Count(), Is.EqualTo(1));
             Assert.That(result.First().Name, Is.EqualTo("Margherita"));
         }
-
-        // ── GetDishDetailsAsync ──────────────────────────────────────────────
-
         [Test]
         public async Task GetDishDetailsAsync_ExistingDish_ReturnsCorrectDetails()
         {

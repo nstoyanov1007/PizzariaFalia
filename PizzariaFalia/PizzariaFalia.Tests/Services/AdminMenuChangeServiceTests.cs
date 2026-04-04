@@ -26,8 +26,6 @@ namespace PizzariaFalia.Tests.Services
             _context.Dispose();
         }
 
-        // ── CreateCategoryAsync ──────────────────────────────────────────────
-
         [Test]
         public async Task CreateCategoryAsync_ValidViewModel_PersistsCategoryToDatabase()
         {
@@ -74,8 +72,6 @@ namespace PizzariaFalia.Tests.Services
 
             Assert.That(_context.Categories.Count(), Is.EqualTo(2));
         }
-
-        // ── EditCategoryAsync ────────────────────────────────────────────────
 
         [Test]
         public async Task EditCategoryAsync_ExistingCategory_UpdatesAllFields()
@@ -129,8 +125,6 @@ namespace PizzariaFalia.Tests.Services
             Assert.That(updated.ParentCategoryId, Is.EqualTo(parent.Id));
         }
 
-        // ── DeleteCategoryAsync ──────────────────────────────────────────────
-
         [Test]
         public async Task DeleteCategoryAsync_ExistingCategory_SetsIsDeletedTrue()
         {
@@ -159,8 +153,6 @@ namespace PizzariaFalia.Tests.Services
 
             Assert.That(_context.Categories.Any(c => c.Id == idBefore), Is.True);
         }
-
-        // ── CreateDishAsync ──────────────────────────────────────────────────
 
         [Test]
         public async Task CreateDishAsync_ValidViewModel_PersistsDishToDatabase()
@@ -210,8 +202,6 @@ namespace PizzariaFalia.Tests.Services
             Assert.That(dish.GramsBig, Is.Null);
         }
 
-        // ── EditDishAsync ────────────────────────────────────────────────────
-
         [Test]
         public async Task EditDishAsync_ExistingDish_UpdatesAllFields()
         {
@@ -251,8 +241,6 @@ namespace PizzariaFalia.Tests.Services
             Assert.ThrowsAsync<ArgumentException>(async () =>
                 await _service.EditDishAsync(vm));
         }
-
-        // ── DeleteDishAsync ──────────────────────────────────────────────────
 
         [Test]
         public async Task DeleteDishAsync_ExistingDish_SetsIsDeletedTrue()

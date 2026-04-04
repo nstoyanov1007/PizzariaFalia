@@ -92,7 +92,7 @@ namespace PizzariaFalia.Web.Areas.Administration.Controllers
         }
         public async Task<IActionResult> DeleteCategory(int dishId)
         {
-            return RedirectToAction("Home/Index");
+            return RedirectToAction("Index", "Home", new { area = "" });
         }
 
         public async Task<IActionResult> EditDish(int id)
@@ -121,15 +121,13 @@ namespace PizzariaFalia.Web.Areas.Administration.Controllers
                 Name = details.Name,
                 CategoryId = details.CategoryId ?? 1
             });
-
-
         }
         [HttpPost]
         public async Task<IActionResult> EditDish(DishFormViewModel model)
         {
             await adminService.EditDishAsync(model);
 
-            return RedirectToAction("Index", "Menu");
+            return RedirectToAction("Index", "Home", new { area = "" });
         }
 
     }
