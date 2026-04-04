@@ -18,15 +18,9 @@ namespace PizzariaFalia.Data
 
         public async Task SeedAsync()
         {
-            await _context.Database.ExecuteSqlRawAsync("SET IDENTITY_INSERT Categories ON");
-            await _context.Database.ExecuteSqlRawAsync("SET IDENTITY_INSERT Dishes ON");
-
             await SeedCategories();
             await SeedDishes();
             await SeedUsers();
-
-            await _context.Database.ExecuteSqlRawAsync("SET IDENTITY_INSERT Categories OFF");
-            await _context.Database.ExecuteSqlRawAsync("SET IDENTITY_INSERT Dishes OFF");
         }
 
         private async Task SeedCategories()

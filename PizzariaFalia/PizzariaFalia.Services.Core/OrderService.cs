@@ -26,7 +26,10 @@ namespace PizzariaFalia.Services.Core
 
         public async Task<OrderDetailsViewModel> GetOrderDetailsAsync(int orderId)
         {
-            Order order = await _context.Orders.FirstAsync(o => o.Id == orderId);
+            Order? order = await _context.Orders.FirstOrDefaultAsync(o => o.Id == orderId);
+
+            if (order == null)
+                throw new Exception("Invalid order Id");
 
             return new OrderDetailsViewModel()
             {

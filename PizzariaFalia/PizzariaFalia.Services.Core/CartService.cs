@@ -118,9 +118,12 @@ namespace PizzariaFalia.Services.Core
 
         public async Task<DishDetailsViewModel> GetDishDetailsAsync(int dishId)
         {
-            Dish dish = await _context.Dishes
+            Dish? dish = await _context.Dishes
                 .Include(d => d.Category)
-                .FirstAsync(d => d.Id == dishId);
+                .FirstOrDefaultAsync(d => d.Id == dishId);
+
+            if (dish == null)
+                throw new ArgumentException("Invalid DishID");
 
             return new DishDetailsViewModel()
             {
