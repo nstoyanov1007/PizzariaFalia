@@ -21,4 +21,8 @@
     <ProjectReference Include="..\PizzariaFalia.Data.Models\PizzariaFalia.Data.Models.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
 </Project>

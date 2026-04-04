@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PizzariaFalia.Data.Models.Enums")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5134439de8389acfdae65f090c00e1a1f963c9b6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+30e4142ee15360837aae99d6356c7d3cd6ef50b8")]
 [assembly: System.Reflection.AssemblyProductAttribute("PizzariaFalia.Data.Models.Enums")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PizzariaFalia.Data.Models.Enums")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

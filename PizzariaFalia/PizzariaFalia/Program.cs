@@ -33,7 +33,12 @@ var app = builder.Build();
 //Seed data
 using (var scope = app.Services.CreateScope())
 {
-    var seeder = scope.ServiceProvider.GetRequiredService<DataSeeder>();
+    var services = scope.ServiceProvider;
+
+    var db = services.GetRequiredService<ApplicationDbContext>();
+    await db.Database.MigrateAsync();
+
+    var seeder = services.GetRequiredService<DataSeeder>();
     await seeder.SeedAsync();
 }
 
